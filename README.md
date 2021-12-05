@@ -2,9 +2,7 @@
 
 <img alt="Drupal Logo" src="/logo.png" height="60px">
 
-This is Leatherista pur project for leather products using git and composer
-
-also create
+This is **Leatherista** project for leather products using git and composer.
 
 ## Installation
 
