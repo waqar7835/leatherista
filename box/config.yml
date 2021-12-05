@@ -1,0 +1,54 @@
+# Set up some defaults for the box.
+vagrant_machine_name: leatherista
+vagrant_hostname: "{{ vagrant_machine_name }}.local"
+vagrant_ip: 192.168.56.11
+
+# Setup the vagrant synced folders.
+vagrant_synced_folders:
+  - local_path: .
+    destination: "/var/www/{{ vagrant_machine_name }}"
+    type: nfs
+    create: true
+drupal_core_path: "/var/www/{{ vagrant_machine_name }}/web"
+
+# Allow easy configuration of the machine resources.
+vagrant_memory: 2048
+vagrant_cpus: 2
+
+# The web server software to use. Can be either 'apache' or 'nginx'.
+drupalvm_webserver: apache
+
+# Turn off all automatic installer features.
+drupal_build_makefile: false
+drupal_build_composer: false
+drupal_build_composer_project: false
+drupal_install_site: false
+
+# Configure built in software.
+installed_extras:
+  - adminer
+  # - blackfire
+  # - drupalconsole
+  - drush
+  # - elasticsearch
+  # - java
+  - mailhog
+  # - memcached
+  # - newrelic
+  # - nodejs
+  - pimpmylog
+  # - redis
+  # - ruby
+  # - selenium
+  # - solr
+  # - tideways
+  # - upload-progress
+  - varnish
+  # - xdebug
+  # - xhprof # use `tideways` if you're installing PHP 7+
+
+# Configure PHP and xdebug.
+php_version: "7.4"
+php_xdebug_idekey: PHPSTORM
+php_xdebug_version: "2.9.6"
+php_xdebug_default_enable: 1
