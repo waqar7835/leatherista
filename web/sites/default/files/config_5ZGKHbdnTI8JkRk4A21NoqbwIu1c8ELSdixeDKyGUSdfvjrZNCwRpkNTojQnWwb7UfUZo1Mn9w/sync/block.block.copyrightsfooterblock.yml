@@ -1,0 +1,25 @@
+uuid: 11b055b9-9d92-46af-9c45-3b9168830a63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a543f4fb-bee9-4bc9-b05c-bcba41e3a1cb'
+  module:
+    - block_content
+  theme:
+    - leatherista
+id: copyrightsfooterblock
+theme: leatherista
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:a543f4fb-bee9-4bc9-b05c-bcba41e3a1cb'
+settings:
+  id: 'block_content:a543f4fb-bee9-4bc9-b05c-bcba41e3a1cb'
+  label: 'Copy rights footer block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

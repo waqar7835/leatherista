@@ -1,0 +1,25 @@
+uuid: eeb3e888-011c-40ca-b2be-7dd3d0f62cb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-
+  module:
+    - system
+  theme:
+    - leatherista
+id: mainmenu
+theme: leatherista
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main-'
+settings:
+  id: 'system_menu_block:main-'
+  label: 'Main menu '
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

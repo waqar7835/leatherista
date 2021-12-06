@@ -1,0 +1,22 @@
+uuid: 96e97f67-3b15-48c9-8478-defa05074633
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - leatherista
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: leatherista_help
+theme: leatherista
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
