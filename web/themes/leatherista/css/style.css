@@ -1,0 +1,7 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+.header a[title="Home"] img {
+  width: 75px;
+}
