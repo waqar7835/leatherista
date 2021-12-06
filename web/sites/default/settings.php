@@ -802,9 +802,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 
 $databases['default']['default'] = array (
-  'database' => 'drupal1',
-  'username' => 'drupal1',
-  'password' => 'drupal1',
+  'database' => 'leatherista',
+  'username' => 'leatherista',
+  'password' => 'leatherista123',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
