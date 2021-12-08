@@ -26,6 +26,7 @@
         "drupal/empty_page": "^3.0",
         "drupal/fontawesome": "^2.19",
         "drupal/inline_entity_form": "^1.0-rc6",
+        "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6"
