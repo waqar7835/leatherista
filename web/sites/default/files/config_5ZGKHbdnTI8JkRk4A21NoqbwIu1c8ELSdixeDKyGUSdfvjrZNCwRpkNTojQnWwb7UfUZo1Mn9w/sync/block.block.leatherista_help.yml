@@ -11,7 +11,7 @@ _core:
 id: leatherista_help
 theme: leatherista
 region: content
-weight: -30
+weight: -9
 provider: null
 plugin: help_block
 settings:
