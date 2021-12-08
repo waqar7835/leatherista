@@ -7,9 +7,9 @@
 
   'use strict';
 
-  Drupal.behaviors.bootstrap_barrio_subtheme = {
+  Drupal.behaviors.leatherista = {
     attach: function (context, settings) {
-
+      
     }
   };
 
