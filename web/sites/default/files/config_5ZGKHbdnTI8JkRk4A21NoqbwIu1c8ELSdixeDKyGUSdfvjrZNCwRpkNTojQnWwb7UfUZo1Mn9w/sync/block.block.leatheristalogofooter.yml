@@ -1,0 +1,25 @@
+uuid: 4b77c9a2-748b-4c9e-b993-44e8926511af
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0b0287de-d1d3-479c-971f-94af18ca0678'
+  module:
+    - block_content
+  theme:
+    - leatherista
+id: leatheristalogofooter
+theme: leatherista
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:0b0287de-d1d3-479c-971f-94af18ca0678'
+settings:
+  id: 'block_content:0b0287de-d1d3-479c-971f-94af18ca0678'
+  label: 'Leatherista Logo Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

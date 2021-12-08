@@ -1,0 +1,24 @@
+uuid: c9adad1b-19fe-4c1d-9a26-c14fcd252bb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer_products_view
+  module:
+    - views
+  theme:
+    - leatherista
+id: views_block__footer_products_view_block_1
+theme: leatherista
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'views_block:footer_products_view-block_1'
+settings:
+  id: 'views_block:footer_products_view-block_1'
+  label: 'Best Selling'
+  provider: views
+  label_display: '0'
+  views_label: 'Best Selling'
+  items_per_page: none
+visibility: {  }

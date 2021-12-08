@@ -1,0 +1,30 @@
+uuid: caf97d68-d790-45ed-bd67-3a33586c5c1a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7a1de2bd-b249-4615-b30d-b1946e8d2938'
+  module:
+    - block_content
+    - system
+  theme:
+    - leatherista
+id: frontmainbanner
+theme: leatherista
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:7a1de2bd-b249-4615-b30d-b1946e8d2938'
+settings:
+  id: 'block_content:7a1de2bd-b249-4615-b30d-b1946e8d2938'
+  label: 'Front Main Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

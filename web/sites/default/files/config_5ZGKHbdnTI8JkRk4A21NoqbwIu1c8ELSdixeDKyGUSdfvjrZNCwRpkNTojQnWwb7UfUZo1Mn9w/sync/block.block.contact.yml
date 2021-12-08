@@ -1,0 +1,25 @@
+uuid: 10ccc1e3-5395-4704-8c11-3c7691ba6a07
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66147e89-2fa4-45c9-9057-ec858ddc7954'
+  module:
+    - block_content
+  theme:
+    - leatherista
+id: contact
+theme: leatherista
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:66147e89-2fa4-45c9-9057-ec858ddc7954'
+settings:
+  id: 'block_content:66147e89-2fa4-45c9-9057-ec858ddc7954'
+  label: Contact
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

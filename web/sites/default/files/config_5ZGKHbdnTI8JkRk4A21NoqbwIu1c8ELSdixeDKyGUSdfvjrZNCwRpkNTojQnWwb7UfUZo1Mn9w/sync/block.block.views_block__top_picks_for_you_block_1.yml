@@ -1,0 +1,29 @@
+uuid: 5a1e5855-786d-4cf7-bed6-987447079dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_picks_for_you
+  module:
+    - system
+    - views
+  theme:
+    - leatherista
+id: views_block__top_picks_for_you_block_1
+theme: leatherista
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:top_picks_for_you-block_1'
+settings:
+  id: 'views_block:top_picks_for_you-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
