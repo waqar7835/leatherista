@@ -25,7 +25,7 @@
         factory(jQuery);
     }
 
-}(function($) {
+}(function($, Drupal) {
     'use strict';
     var Slick = window.Slick || {};
 
