@@ -44,4 +44,14 @@ ul.top-pick-for-you-slider {
 .front-page-services-section {
   padding-top: 83px;
   padding-bottom: 77px;
+  width: 80%;
+  margin: auto;
+}
+.front-page-services-section .field--name-field-ser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.front-page-services-section .field--name-field-ser > .field__item {
+  width: 30%;
 }
