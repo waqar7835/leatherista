@@ -55,3 +55,6 @@ ul.top-pick-for-you-slider {
 .front-page-services-section .field--name-field-ser > .field__item {
   width: 30%;
 }
+.front-page-services-section .field--name-field-ser > .field__item .field--name-field-logo img {
+  max-width: 100%;
+}
