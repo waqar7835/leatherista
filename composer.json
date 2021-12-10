@@ -24,6 +24,7 @@
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/empty_page": "^3.0",
+        "drupal/field_group": "^3.2",
         "drupal/fontawesome": "^2.19",
         "drupal/inline_entity_form": "^1.0-rc6",
         "drupal/paragraphs": "^1.12",
