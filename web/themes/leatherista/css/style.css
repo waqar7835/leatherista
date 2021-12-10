@@ -83,6 +83,10 @@ ul.top-pick-for-you-slider {
 }
 .front-belts-icons-banner .field--name-body img {
   max-width: 100%;
- 
+  margin: 0 auto;
+}
+.view-blogs-homepage {
+  padding: 50px;
+  width: 80%;
   margin: 0 auto;
 }
