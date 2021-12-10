@@ -17,6 +17,8 @@ body.path-frontpage main.main-content {
 }
 .top-picks-for-you-section {
   padding: 80px 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 ul.top-pick-for-you-slider {
   padding-left: 0;
@@ -59,4 +61,10 @@ ul.top-pick-for-you-slider {
   max-width: 100%;
   width: 60px;
   height: 60px; 
+}
+.view-top-picks-for-you .slick-next {
+  right: 0;
+}
+.view-top-picks-for-you .slick-prev {
+  left: 0;
 }
