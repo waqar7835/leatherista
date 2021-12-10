@@ -31,9 +31,10 @@ ul.top-pick-for-you-slider {
    display: flex;
    flex-wrap: wrap;
    width: 80%;
+   margin: auto;
 }
 .front-categoies-section .view-front-categoies-views .view-content .views-row {
-  width: 33%;
+  width: 25%;
 }
 
 .testimonials-front-view-section {
