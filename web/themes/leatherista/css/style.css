@@ -5,9 +5,13 @@
 .header a[title="Home"] img {
   width: 75px;
 }
-header.header {
-  background-color: #9BBBBF;
- }
- header.header #navbar-main .navbar-brand {
+header.header #navbar-main .navbar-brand {
    margin-left: 25px;
- }
+}
+body.path-frontpage .block-page-title-block {
+  display: none;
+}
+body.path-frontpage main.main-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
