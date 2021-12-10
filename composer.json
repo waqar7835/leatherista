@@ -29,6 +29,7 @@
         "drupal/inline_entity_form": "^1.0-rc6",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
+        "drupal/simple_gmap": "^3.0",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6"
     },
