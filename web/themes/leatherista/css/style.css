@@ -5,4 +5,9 @@
 .header a[title="Home"] img {
   width: 75px;
 }
- 
+header.header {
+  background-color: #9BBBBF;
+ }
+ header.header #navbar-main .navbar-brand {
+   margin-left: 25px;
+ }
