@@ -70,3 +70,6 @@ ul.top-pick-for-you-slider {
 .view-top-picks-for-you .slick-prev {
   left: 0;
 }
+#block-frontmainbanner .field--name-body img {
+  max-width: 100%;
+}
