@@ -15,6 +15,7 @@
       $(".top-pick-for-you-slider").slick({
         infinite: true,
         draggable: true,
+        fade: false,
         swipe: true,
         centerPadding: '265px',
         slidesToShow: 3,
