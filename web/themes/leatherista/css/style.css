@@ -15,3 +15,27 @@ body.path-frontpage main.main-content {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.top-picks-for-you-section {
+  padding: 80px 20px;
+}
+ul.top-pick-for-you-slider {
+  padding-left: 0;
+}
+.top-picks-for-you-section h2 {
+  text-align: center;
+}
+.front-categoies-section {
+  padding-top: 80px;
+}
+.top-picks-for-you-section .view-front-categoies-views .view-content {
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+}
+.top-picks-for-you-section .view-front-categoies-views .view-content .views-row {
+  width: 33%;
+}
+
+.testimonials-front-view-section {
+  background-color: #ECF1F4;
+}
