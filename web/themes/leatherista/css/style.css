@@ -78,8 +78,11 @@ ul.top-pick-for-you-slider {
 .front-belts-icons-banner {
   padding: 10px;
 }
+.front-belts-icons-banner .field--name-body {
+  text-align: center;
+}
 .front-belts-icons-banner .field--name-body img {
   max-width: 100%;
-  width: 600px;
+ 
   margin: 0 auto;
 }
