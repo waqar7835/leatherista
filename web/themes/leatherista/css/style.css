@@ -65,10 +65,12 @@ ul.top-pick-for-you-slider {
 .view-testimonials-front-view .slick-next,
 .view-top-picks-for-you .slick-next {
   right: 0;
+  background-color: #9BBBBF;
 }
 .view-testimonials-front-view .slick-prev,
 .view-top-picks-for-you .slick-prev {
   left: 0;
+  background-color: #9BBBBF;
 }
 #block-frontmainbanner .field--name-body img {
   max-width: 100%;
