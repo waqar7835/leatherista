@@ -35,8 +35,16 @@ ul.top-pick-for-you-slider {
   text-align: center;
 }
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-title a {
-  color: #555a60 ;
+  color: #555a60;
   font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images {
+  height: 222px;
+}
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images:hover img {
+  background-color: rgb(155 187 191 / 50%);
 }
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-price__number {
   font-size: 18px;
