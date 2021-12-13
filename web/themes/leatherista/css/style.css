@@ -55,6 +55,9 @@ ul.top-pick-for-you-slider {
   color: #9BBBC1!important;
   font-weight: 600;
 }
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-variations-target-id {
+  visibility: hidden;
+}
 .top-picks-for-you-section .slick-slide img {
   display: unset;
 }
