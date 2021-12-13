@@ -43,7 +43,10 @@ ul.top-pick-for-you-slider {
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images {
   height: 222px;
 }
-.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images:hover img {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images .field-content {
+  padding: 0 15px;
+}
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images:hover .field-content {
   background-color: rgb(155 187 191 / 50%);
 }
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-price__number {
