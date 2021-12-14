@@ -50,7 +50,7 @@ ul.top-pick-for-you-slider {
   padding: 0 15px;
   height: 222px;
 }
-.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider li img:hover .views-field-field-images {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider li:hover .views-field-field-images {
   background-color: rgb(155 187 191 / 50%);
   
 }
