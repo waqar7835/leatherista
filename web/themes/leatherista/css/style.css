@@ -18,6 +18,7 @@ body.path-frontpage main.main-content {
 .top-picks-for-you-section {
   padding: 80px 20px;
   width: 1140px;
+  max-width: 100%;
   margin: 0 auto;
 }
 ul.top-pick-for-you-slider {
@@ -49,7 +50,7 @@ ul.top-pick-for-you-slider {
   padding: 0 15px;
   height: 222px;
 }
-.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-field-images:hover .field-content {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider li:hover .views-field-field-images {
   background-color: rgb(155 187 191 / 50%);
 }
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-price__number {
