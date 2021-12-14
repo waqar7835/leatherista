@@ -17,7 +17,7 @@ body.path-frontpage main.main-content {
 }
 .top-picks-for-you-section {
   padding: 80px 20px;
-  width: 80%;
+  width: 1140px;
   margin: 0 auto;
 }
 ul.top-pick-for-you-slider {
@@ -25,6 +25,8 @@ ul.top-pick-for-you-slider {
 }
 .top-picks-for-you-section h2 {
   text-align: center;
+  margin-bottom: 25px;
+  font-size: 38px;
 }
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide {
   border: 1px solid #eee;
