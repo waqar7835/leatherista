@@ -12,7 +12,7 @@ dependencies:
 id: frontmainbanner
 theme: leatherista
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: 'block_content:7a1de2bd-b249-4615-b30d-b1946e8d2938'
 settings:

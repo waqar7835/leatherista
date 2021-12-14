@@ -1,21 +1,25 @@
-uuid: b266cd1e-4f28-4693-9e6e-726d1d1de08e
+uuid: 6f9d3821-8c66-4d3a-87ea-fab2033df6a3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.commerce_product.field_images
-    - image.style.medium
+    - field.storage.node.body
+    - field.storage.node.field_author_image
+    - field.storage.node.field_author_name
+    - image.style.thumbnail
+    - node.type.testimonials
   module:
-    - commerce_price
-    - commerce_product
     - image
-id: top_picks_for_you
-label: 'Top Picks for You'
+    - node
+    - text
+    - user
+id: testimonials_front_view
+label: 'Testimonials Front View'
 module: views
 description: ''
 tag: ''
-base_table: commerce_product_field_data
-base_field: product_id
+base_table: node_field_data
+base_field: nid
 display:
   default:
     display_plugin: default
@@ -24,8 +28,9 @@ display:
     position: 0
     display_options:
       access:
-        type: none
-        options: {  }
+        type: perm
+        options:
+          perm: 'access content'
       cache:
         type: tag
         options: {  }
@@ -60,14 +65,77 @@ display:
           default_row_class: true
           type: ul
           wrapper_class: ''
-          class: top-pick-for-you-slider
+          class: testimonials-front-slider
       row:
         type: fields
       fields:
-        field_images:
-          id: field_images
-          table: commerce_product__field_images
-          field: field_images
+        body:
+          id: body
+          table: node__body
+          field: body
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_trimmed
+          settings:
+            trim_length: 150
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_author_image:
+          id: field_author_image
+          table: node__field_author_image
+          field: field_author_image
           relationship: none
           group_type: group
           admin_label: ''
@@ -115,7 +183,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: medium
+            image_style: thumbnail
             image_link: ''
           group_column: ''
           group_columns: {  }
@@ -128,10 +196,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        title:
-          id: title
-          table: commerce_product_field_data
-          field: title
+        field_author_name:
+          id: field_author_name
+          table: node__field_author_name
+          field: field_author_name
           relationship: none
           group_type: group
           admin_label: ''
@@ -179,7 +247,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -190,147 +258,14 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-          entity_type: null
-          entity_field: title
-          plugin_id: field
-        price__number:
-          id: price__number
-          table: commerce_product_variation_field_data
-          field: price__number
-          relationship: variations_target_id
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: number
-          type: commerce_price_default
-          settings:
-            strip_trailing_zeroes: false
-            currency_display: symbol
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: commerce_product_variation
-          entity_field: price
-          plugin_id: field
-        variations_target_id:
-          id: variations_target_id
-          table: commerce_product__variations
-          field: variations_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: commerce_add_to_cart
-          settings:
-            combine: false
-          group_column: target_id
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: commerce_product
-          entity_field: variations
           plugin_id: field
       filters:
         status:
           value: '1'
-          table: commerce_product_field_data
+          table: node_field_data
           field: status
           plugin_id: boolean
-          entity_type: commerce_product
+          entity_type: node
           entity_field: status
           id: status
           expose:
@@ -338,23 +273,39 @@ display:
             operator_limit_selection: false
             operator_list: {  }
           group: 1
-      sorts: {  }
-      title: 'Top Picks for You'
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            testimonials: testimonials
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          expose:
+            operator_limit_selection: false
+            operator_list: {  }
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+      title: 'Testimonials Front View'
       header: {  }
       footer: {  }
       empty: {  }
-      relationships:
-        variations_target_id:
-          id: variations_target_id
-          table: commerce_product__variations
-          field: variations_target_id
-          relationship: none
-          group_type: group
-          admin_label: 'Product variation'
-          required: false
-          entity_type: commerce_product
-          entity_field: variations
-          plugin_id: standard
+      relationships: {  }
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
@@ -362,21 +313,29 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
       tags:
-        - 'config:field.storage.commerce_product.field_images'
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_author_image'
+        - 'config:field.storage.node.field_author_name'
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Top Picks for You'
+    display_title: 'Testimonials Front View'
     position: 1
     display_options:
       display_extenders: {  }
       display_description: ''
-      block_description: 'Top Picks for You'
+      block_description: 'Testimonials Front View'
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
       tags:
-        - 'config:field.storage.commerce_product.field_images'
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_author_image'
+        - 'config:field.storage.node.field_author_name'

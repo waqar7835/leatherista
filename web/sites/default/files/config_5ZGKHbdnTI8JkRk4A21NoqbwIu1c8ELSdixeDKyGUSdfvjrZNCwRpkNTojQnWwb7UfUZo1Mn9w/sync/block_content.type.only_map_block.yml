@@ -1,0 +1,8 @@
+uuid: a8c5ed8d-7f36-4df6-a708-e32db158ef5c
+langcode: en
+status: true
+dependencies: {  }
+id: only_map_block
+label: 'Only Map Block'
+revision: 0
+description: 'Only Text Filed for Google Map Block'

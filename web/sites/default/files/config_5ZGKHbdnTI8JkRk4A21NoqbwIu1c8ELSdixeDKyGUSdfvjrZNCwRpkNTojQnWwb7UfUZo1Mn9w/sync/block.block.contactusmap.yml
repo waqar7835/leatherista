@@ -1,0 +1,34 @@
+uuid: 0b2ab2fc-f6ed-4d88-a759-576ba3f148ba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:only_map_block:2552ab23-5bc4-4df0-b7a9-4f6591fb8701'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - leatherista
+third_party_settings:
+  block_class:
+    classes: contact-us-google-map
+id: contactusmap
+theme: leatherista
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:2552ab23-5bc4-4df0-b7a9-4f6591fb8701'
+settings:
+  id: 'block_content:2552ab23-5bc4-4df0-b7a9-4f6591fb8701'
+  label: 'Contact Us Map'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false

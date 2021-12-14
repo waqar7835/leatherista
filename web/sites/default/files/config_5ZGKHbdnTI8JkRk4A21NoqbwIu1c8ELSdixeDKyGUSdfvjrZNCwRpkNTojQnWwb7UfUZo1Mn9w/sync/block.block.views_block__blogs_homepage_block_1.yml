@@ -1,26 +1,22 @@
-uuid: 077da870-7379-4c9c-b0ab-b13a4524c528
+uuid: 989041f4-0ef9-47a8-8825-2de3ce332adb
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.front_categoies_views
+    - views.view.blogs_homepage
   module:
-    - block_class
     - system
     - views
   theme:
     - leatherista
-third_party_settings:
-  block_class:
-    classes: front-categoies-section
-id: views_block__front_categoies_views_block_1
+id: views_block__blogs_homepage_block_1
 theme: leatherista
 region: content
-weight: -5
+weight: 0
 provider: null
-plugin: 'views_block:front_categoies_views-block_1'
+plugin: 'views_block:blogs_homepage-block_1'
 settings:
-  id: 'views_block:front_categoies_views-block_1'
+  id: 'views_block:blogs_homepage-block_1'
   label: ''
   provider: views
   label_display: '0'

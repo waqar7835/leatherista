@@ -1,0 +1,33 @@
+uuid: ab7f63bf-701b-458e-a76b-e85b2ea0cbe6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_and_image_
+    - field.field.block_content.text_and_image_.body
+    - field.field.block_content.text_and_image_.field_ser
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.text_and_image_.default
+targetEntityType: block_content
+bundle: text_and_image_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ser:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

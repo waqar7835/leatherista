@@ -1,0 +1,29 @@
+uuid: a5a8acd8-c72e-4051-9438-10e1977a8efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_and_image_
+    - field.storage.block_content.field_ser
+  module:
+    - entity_reference_revisions
+id: block_content.text_and_image_.field_ser
+field_name: field_ser
+entity_type: block_content
+bundle: text_and_image_
+label: 'Services Section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_and_text_:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

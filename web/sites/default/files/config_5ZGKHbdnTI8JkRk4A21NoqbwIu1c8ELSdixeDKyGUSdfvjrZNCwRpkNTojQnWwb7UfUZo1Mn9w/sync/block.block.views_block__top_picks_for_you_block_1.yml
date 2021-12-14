@@ -5,14 +5,18 @@ dependencies:
   config:
     - views.view.top_picks_for_you
   module:
+    - block_class
     - system
     - views
   theme:
     - leatherista
+third_party_settings:
+  block_class:
+    classes: top-picks-for-you-section
 id: views_block__top_picks_for_you_block_1
 theme: leatherista
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: 'views_block:top_picks_for_you-block_1'
 settings:

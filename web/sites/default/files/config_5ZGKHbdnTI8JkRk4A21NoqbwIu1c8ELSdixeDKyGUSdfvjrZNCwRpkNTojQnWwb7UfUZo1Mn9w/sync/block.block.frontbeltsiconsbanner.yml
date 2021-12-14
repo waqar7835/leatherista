@@ -1,0 +1,34 @@
+uuid: 44278a3b-204e-4839-872e-c6f90304ea2e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e5ccbd0c-32e3-4232-99ab-081280d9d366'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - leatherista
+third_party_settings:
+  block_class:
+    classes: front-belts-icons-banner
+id: frontbeltsiconsbanner
+theme: leatherista
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:e5ccbd0c-32e3-4232-99ab-081280d9d366'
+settings:
+  id: 'block_content:e5ccbd0c-32e3-4232-99ab-081280d9d366'
+  label: 'Front Belts Icons Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

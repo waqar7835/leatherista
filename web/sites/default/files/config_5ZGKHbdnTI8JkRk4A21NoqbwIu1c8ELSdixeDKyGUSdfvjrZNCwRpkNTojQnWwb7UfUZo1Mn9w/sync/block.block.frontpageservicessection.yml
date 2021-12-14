@@ -1,0 +1,34 @@
+uuid: a1c1328f-badd-4ded-a0b5-086a849c16d3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_and_image_:b0da987e-a7f1-42d2-b550-a938f1ba1ba0'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - leatherista
+third_party_settings:
+  block_class:
+    classes: front-page-services-section
+id: frontpageservicessection
+theme: leatherista
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:b0da987e-a7f1-42d2-b550-a938f1ba1ba0'
+settings:
+  id: 'block_content:b0da987e-a7f1-42d2-b550-a938f1ba1ba0'
+  label: 'Front Page Services Section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

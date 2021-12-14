@@ -1,0 +1,8 @@
+uuid: 2fca9807-51b1-448c-b478-edd2fff2536c
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_image_
+label: 'Text and Image '
+revision: 0
+description: 'Text , body and Image '

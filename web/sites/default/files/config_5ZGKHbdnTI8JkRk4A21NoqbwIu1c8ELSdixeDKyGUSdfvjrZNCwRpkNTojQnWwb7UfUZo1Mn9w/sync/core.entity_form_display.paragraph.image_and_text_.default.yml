@@ -1,0 +1,69 @@
+uuid: cf596a46-1d23-45ac-b41e-2645f880d111
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_and_text_.field_body
+    - field.field.paragraph.image_and_text_.field_logo
+    - field.field.paragraph.image_and_text_.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.image_and_text_
+  module:
+    - field_group
+    - image
+    - text
+third_party_settings:
+  field_group:
+    group_selection_serviecs_warpper:
+      children:
+        - field_title
+        - field_body
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      region: content
+      format_settings:
+        element: div
+        show_label: true
+        label_element: h3
+        label_element_classes: 'Label element'
+        required_fields: true
+        attributes: ''
+        effect: none
+        speed: fast
+        id: selection-serviecs-warpper
+        classes: selection-serviecs-warpper
+        show_empty_fields: false
+      label: 'selection serviecs warpper'
+id: paragraph.image_and_text_.default
+targetEntityType: paragraph
+bundle: image_and_text_
+mode: default
+content:
+  field_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_logo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
