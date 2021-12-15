@@ -55,7 +55,7 @@ ul.top-pick-for-you-slider {
   
 }
 .view-top-picks-for-you ul button{
-  background-color: black;
+  background-color: cornflowerblue;
   width: 60px;
   height: 36px;
   border-radius: 0px 10px 0px 20px;
@@ -107,11 +107,13 @@ ul.top-pick-for-you-slider {
   width: 60px;
   height: 60px; 
 }
-.view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next {
+.view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next:focus {
   right: 0;
+  background: cornflowerblue !important;
 }
-.view-testimonials-front-view .slick-prev .view-top-picks-for-you .slick-prev {
+.view-testimonials-front-view .slick-prev .view-top-picks-for-you .slick-prev:focus {
   left: 0;
+  background: cornflowerblue !important;
 }
 #block-frontmainbanner .field--name-body img {
   max-width: 100%;
