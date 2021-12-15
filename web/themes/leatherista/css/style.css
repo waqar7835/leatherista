@@ -101,8 +101,7 @@ ul.top-pick-for-you-slider {
   width: 60px;
   height: 60px; 
 }
-.view-testimonials-front-view .slick-next,
-.view-top-picks-for-you .slick-next {
+.view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next {
   right: 0;
   background-color: #9BBBBF;
 }
