@@ -107,11 +107,11 @@ ul.top-pick-for-you-slider {
   width: 60px;
   height: 60px; 
 }
-.view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next {
+.view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next:focus {
   right: 0;
   background: cornflowerblue !important;
 }
-.view-testimonials-front-view .slick-prev .view-top-picks-for-you .slick-prev {
+.view-testimonials-front-view .slick-prev .view-top-picks-for-you .slick-prev:focus {
   left: 0;
   background: cornflowerblue !important;
 }
