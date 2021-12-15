@@ -54,6 +54,12 @@ ul.top-pick-for-you-slider {
   background-color: rgb(155 187 191 / 50%);
   
 }
+.view-top-picks-for-you ul button{
+  background-color: black;
+  width: 60px;
+  height: 36px;
+  border-radius: 0px 10px 0px 20px;
+}
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-price__number {
   font-size: 18px;
   color: #9BBBC1!important;
