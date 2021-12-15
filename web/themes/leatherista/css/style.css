@@ -131,3 +131,18 @@ ul.top-pick-for-you-slider {
   width: 80%;
   margin: 0 auto;
 }
+.site-footer .site-footer__top.clearfix{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.site-footer .block{
+  margin: 0;
+  border: 0;
+}
+.site-footer__top h2{
+  border: 0;
+}
+.menu--quick-links .nav{
+  flex-direction: column;
+}
