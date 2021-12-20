@@ -150,3 +150,6 @@ ul.top-pick-for-you-slider {
 .menu--quick-links .nav{
   flex-direction: column;
 }
+#navbar-top{
+  display: none;
+}
