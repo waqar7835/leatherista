@@ -15,6 +15,23 @@ body.path-frontpage main.main-content {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+#header{
+  background-color: #9BBBBF;
+}
+#navbar-top{
+  display: none;
+}
+#navbar-main{
+  width: 840px;
+  display: flex;
+  justify-content: space-between;
+}
+#block-mainmenu{
+  width: 544px;
+}
+#block-mainmenu ul.nav{
+  justify-content: center;
+}
 .top-picks-for-you-section {
   padding: 80px 20px;
   width: 1140px;
@@ -149,7 +166,4 @@ ul.top-pick-for-you-slider {
 }
 .menu--quick-links .nav{
   flex-direction: column;
-}
-#navbar-top{
-  display: none;
 }
