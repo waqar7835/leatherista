@@ -116,6 +116,7 @@ ul.top-pick-for-you-slider {
 }
 .front-categoies-section .view-front-categoies-views .view-content .views-row {
   width: 25%;
+  position: relative;
 }
 
 .testimonials-front-view-section {
