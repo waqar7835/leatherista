@@ -17,6 +17,8 @@ body.path-frontpage main.main-content {
 }
 #header{
   background-color: #9BBBBF;
+  display: flex;
+  justify-content: center;
 }
 #navbar-top{
   display: none;
@@ -38,7 +40,7 @@ body.path-frontpage main.main-content {
 #block-mainmenu ul.nav li a{
   color: #fff;
 }
-#block-mainmenu ul.nav li a:active, :hover{
+#block-mainmenu ul.nav li a:active, #block-mainmenu ul.nav li a:hover{
   border-bottom: #fff;
 }
 .top-picks-for-you-section {
