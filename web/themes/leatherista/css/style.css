@@ -183,3 +183,12 @@ ul.top-pick-for-you-slider {
 .menu--quick-links .nav{
   flex-direction: column;
 }
+.front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name a{
+  display: none;
+}
+.front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name a:hover{
+  display: block;
+}
+.front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name a + .front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-field-image:hover{
+  display: block;
+}
