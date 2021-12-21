@@ -189,5 +189,28 @@ ul.top-pick-for-you-slider {
 .front-categoies-section .view-front-categoies-views .view-content .views-row:hover>.views-field-name {
   display: block;
   position: absolute;
-  z-index: 999;
+  z-index: 999999;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 39%;
+}
+.front-categoies-section .view-front-categoies-views .view-content .views-row:hover::after {
+  content: '';
+  width: 91%;
+  height: 100%;
+  background: #9bbbbf;
+  position: absolute;
+  z-index: 99999;
+  top: 0px;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), visibility 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+.front-categoies-section .view-front-categoies-views .view-content .views-row .image-style-medium {
+  width: 100%;
 }
