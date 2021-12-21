@@ -43,6 +43,7 @@ body.path-frontpage main.main-content {
 #block-mainmenu ul.nav li a{
   color: #fff;
   padding: 0px;
+  text-decoration: underline;
 }
 #block-mainmenu ul.nav li a:active, #block-mainmenu ul.nav li a:hover{
   border-bottom: #fff;
