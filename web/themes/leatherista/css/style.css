@@ -193,3 +193,8 @@ ul.top-pick-for-you-slider {
 .front-categoies-section .view-front-categoies-views .view-content .views-row:hover + .front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name a{
   display: block;
 }
+.front-categoies-section .view-front-categoies-views .view-content .views-row:hover > .views-field-name {
+  display: block;
+  position: absolute;
+  z-index: 999;
+}
