@@ -37,8 +37,12 @@ body.path-frontpage main.main-content {
 #block-mainmenu ul.nav{
   justify-content: center;
 }
+#block-mainmenu ul.nav li{
+  padding: 10px 20px;
+}
 #block-mainmenu ul.nav li a{
   color: #fff;
+  padding: 0px;
 }
 #block-mainmenu ul.nav li a:active, #block-mainmenu ul.nav li a:hover{
   border-bottom: #fff;
