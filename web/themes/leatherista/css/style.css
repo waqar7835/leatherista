@@ -199,7 +199,7 @@ ul.top-pick-for-you-slider {
   left: 0;
   right: 0;
   text-align: center;
-  top: 39%;
+  /* top: 39%; */
 }
 /* .front-categoies-section .view-front-categoies-views .view-content .views-row::after{
   opacity: 1;
