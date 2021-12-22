@@ -442,6 +442,7 @@ ul.top-pick-for-you-slider {
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-prev.slick-arrow{
   display: none;
+  left: -220px;
 }
 
 .testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-next.slick-arrow {
@@ -454,4 +455,5 @@ ul.top-pick-for-you-slider {
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
   display: none;
+  right: -220px;
 }
