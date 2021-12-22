@@ -31,12 +31,7 @@
  * @ingroup themeable
  */
 #}
- {# {% set classes[
-   'region',
-   'region-' ~region|clean_class,
-    ]
-  %} #}
-  <div {{attributes.addClass(classes)}}>
+ 
 {% for field in fields -%}
   {{ field.separator }}
   {%- if field.wrapper_element -%}
@@ -58,4 +53,3 @@
     </{{ field.wrapper_element }}>
   {%- endif %}
 {%- endfor %}
-</div>
