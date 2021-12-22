@@ -449,7 +449,7 @@ ul.top-pick-for-you-slider {
   background: black !important;
   height: 62px;
   width: 62px;
-  left: -200px;
+  right: -200px;
   display: block;
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
