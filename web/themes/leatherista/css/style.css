@@ -432,3 +432,26 @@ ul.top-pick-for-you-slider {
   line-height: 1.6;
   padding-top: 20px;
 }
+.testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-prev.slick-arrow {
+  border-radius: 0px !important;
+  background: black !important;
+  height: 62px;
+  width: 62px;
+  left: -200px;
+  display: block;
+}
+.testimonials-front-slider.slick-initialized.slick-slider .slick-prev.slick-arrow{
+  display: none;
+}
+
+.testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-next.slick-arrow {
+  border-radius: 0px !important;
+  background: black !important;
+  height: 62px;
+  width: 62px;
+  left: -200px;
+  display: block;
+}
+.testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
+  display: none;
+}
