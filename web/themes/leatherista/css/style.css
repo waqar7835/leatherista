@@ -203,6 +203,7 @@ ul.top-pick-for-you-slider {
   left: 0;
   right: 0;
   text-align: center;
+  background: #9bbbbf;
   /* top: 39%; */
 }
 /* .front-categoies-section .view-front-categoies-views .view-content .views-row::after{
@@ -241,7 +242,7 @@ ul.top-pick-for-you-slider {
   color: #fff;
   font-size: 25px;
   text-decoration: none;
-  background: blue;
+  /* background: #9bbbbf; */
   width: 92%;
   height: 220px;
   display: block;
@@ -249,7 +250,7 @@ ul.top-pick-for-you-slider {
   right: 0;
   position: relative;
   margin: 0 auto;
-  top: 0px;
+  top: 38%;
   opacity: 1;
 }
 .site-footer__top .region:first-child img{
