@@ -315,10 +315,7 @@ ul.top-pick-for-you-slider {
   margin: 0 auto;
   padding-left: 4px;
 }
-.view-blogs-homepage .row {
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
+
 .view-blogs-homepage .row .views-row {
   flex-basis: 31%;
 }
@@ -458,4 +455,8 @@ ul.top-pick-for-you-slider {
 .testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
   display: none;
   right: -220px;
+}
+.path-frontpage .view-blogs-homepage .row {
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
