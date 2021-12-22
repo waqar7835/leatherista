@@ -486,10 +486,14 @@ ul.top-pick-for-you-slider {
 .view-shop .view-content.row .views-row img {
   width: 100%;
 }
-.view-shop .view-content.row .views-row:hover{
+.view-shop .view-content.row .views-row img:hover{
   transition: 0.5s;
   background-color: #9bbbbf;
   opacity: 0.5;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
+}
+.view-shop .view-content.row .views-row .views-field-title .field-content{
+  color: #555a60;
+  font-size: 16px;
 }
