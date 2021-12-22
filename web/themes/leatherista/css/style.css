@@ -413,7 +413,7 @@ ul.top-pick-for-you-slider {
   margin-right: auto;
   background-color: #FFFFFF;
   border-style: none;
-  padding: 15px 50px 53px 50px;
+  padding: 50px 50px 20px 50px;
 }
 .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-image {
   float: left;
