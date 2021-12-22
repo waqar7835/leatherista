@@ -439,6 +439,7 @@ ul.top-pick-for-you-slider {
   width: 62px;
   left: -200px;
   display: block;
+  transition: 0.5s;
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-prev.slick-arrow{
   display: none;
@@ -452,6 +453,7 @@ ul.top-pick-for-you-slider {
   width: 62px;
   right: -210px;
   display: block;
+  transition: 0.5s;
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
   display: none;
