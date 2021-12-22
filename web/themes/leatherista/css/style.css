@@ -442,7 +442,7 @@ ul.top-pick-for-you-slider {
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-prev.slick-arrow{
   display: none;
-  left: -220px;
+  left: -210px;
 }
 
 .testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-next.slick-arrow {
@@ -450,7 +450,7 @@ ul.top-pick-for-you-slider {
   background: black !important;
   height: 62px;
   width: 62px;
-  right: -200px;
+  right: -210px;
   display: block;
 }
 .testimonials-front-slider.slick-initialized.slick-slider .slick-next.slick-arrow{
