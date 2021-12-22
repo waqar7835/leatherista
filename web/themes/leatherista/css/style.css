@@ -462,3 +462,19 @@ ul.top-pick-for-you-slider {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+
+.view-shop .view-content.row {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1150px;
+}
+.view-shop .view-content.row .views-row {
+  width: 50%;
+}
+.view-shop .view-content.row .views-row img{
+  width: 100%;
+  height: 100%;
+}
