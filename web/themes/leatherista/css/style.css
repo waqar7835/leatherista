@@ -318,6 +318,7 @@ ul.top-pick-for-you-slider {
 
 .view-blogs-homepage .row .views-row {
   flex-basis: 31%;
+  margin-bottom: 30px;
 }
 .latest-initiatives-data .blogimage{
   width: 100%;
