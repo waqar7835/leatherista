@@ -339,3 +339,45 @@ ul.top-pick-for-you-slider {
   will-change: transform;
   transition: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+.latest-initiatives-data .tagdate {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 10px 17px 10px;
+  border-bottom: 1px solid #f6f6f6;
+}
+.latest-initiatives-data .tagdate a {
+  color: rgb(85 90 96 / 56%);
+  font-size: 14px;
+  text-decoration: none;
+}
+.latest-initiatives-data .tagdate a:hover{
+  color: rgb(85 90 96 / 56%);
+}
+.latest-initiatives-data .tagdate .datetime{
+  color: rgb(85 90 96 / 56%);
+}
+.latest-initiatives-data .titlebody a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.latest-initiatives-data .titlebody a:hover{
+  color: #555a60;
+}
+.latest-initiatives-data .body p {
+  color: rgb(85 90 96 / 70%);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.latest-initiatives-data .Link.to.Content a{
+  background: #9bbbbf;
+  color: #ffffff;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 35px;
+}
+.latest-initiatives-data .titlebody {
+  padding-bottom: 15px;
+}
