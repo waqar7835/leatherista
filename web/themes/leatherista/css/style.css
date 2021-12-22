@@ -358,7 +358,7 @@ ul.top-pick-for-you-slider {
 }
 .latest-initiatives-data .titlebody a {
   font-size: 20px;
-  color: #000;
+  color: #555a60;
   text-decoration: none;
 }
 .latest-initiatives-data .titlebody a:hover{
@@ -380,4 +380,55 @@ ul.top-pick-for-you-slider {
 }
 .latest-initiatives-data .titlebody {
   padding-bottom: 15px;
+}
+.latest-initiatives-data .titlebody .title {
+  padding-bottom: 10px;
+}
+.view-blogs-homepage .view-header h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+  margin-bottom: 1rem;
+  display: inline !important;
+  background-color: #9bbbbf;
+  padding: 2px 4px 3px 6px;
+  border-radius: 4px;
+  color: #fff !important;
+}
+.view-blogs-homepage .view-header{
+  text-align: center;
+  padding-bottom: 47px;
+}
+.view-blogs-homepage .view-header h2{
+  color: #555A60;
+}
+.latest-initiatives-data .titlebody .body {
+  height: 100px;
+  overflow: hidden;
+}
+.view-testimonials-front-view ul{
+  width: 65%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border-style: none;
+  padding: 15px 50px 53px 50px;
+}
+.testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-image {
+  float: left;
+  width: 20%;
+  padding-left: 35%;
+}
+.testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name {
+  width: 85%;
+}
+.testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name .field-content{
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  padding-top: 20px;
 }
