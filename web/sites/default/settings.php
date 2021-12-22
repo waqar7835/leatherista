@@ -817,3 +817,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 }
 
 $settings['config_sync_directory'] = 'sites/default/files/config_5ZGKHbdnTI8JkRk4A21NoqbwIu1c8ELSdixeDKyGUSdfvjrZNCwRpkNTojQnWwb7UfUZo1Mn9w/sync';
+
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+
+$config['system.logging']['error_level'] = 'verbose';
