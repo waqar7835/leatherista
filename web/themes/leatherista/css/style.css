@@ -711,3 +711,38 @@ ul.top-pick-for-you-slider {
 .block-commerce-cart-popup #block-commerce-popup-cart-commerce-popup-cart {
     position: relative;
 }
+
+.contact-us-from-section .js-form-item-your-comments {
+    width: 100%;
+}
+
+.contact-us-from-section .js-form-item-your-comments textarea {
+    background: whitesmoke;
+}
+
+.block-system-main-block {
+    width: 1140px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 5.33333rem;
+}
+
+.block-system-main-block .field--name-field-images {
+    float: left;
+    width: 522.5px;
+    height: 377.9333px;
+    margin-bottom: 5.33333rem;
+    margin-right: 80px;
+}
+
+.block-system-main-block .field--name-field-images {
+    width: 522.5px;
+    height: 377.9333px;
+}
+
+.block-system-main-block .field--type-commerce-price .field__item {
+    color: #9bbbbf !important;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+}
