@@ -431,7 +431,7 @@ ul.top-pick-for-you-slider {
   line-height: 1.6;
   padding-top: 20px;
 }
-.view-testimonials-front-view:hover>.slick-prev.slick-arrow {
+.view-testimonials-front-view:hover .slick-prev.slick-arrow {
   border-radius: 0px !important;
   background: black !important;
   height: 62px;
@@ -445,7 +445,7 @@ ul.top-pick-for-you-slider {
   left: -210px;
 }
 
-.view-testimonials-front-view:hover>.slick-next.slick-arrow {
+.view-testimonials-front-view:hover .slick-next.slick-arrow {
   border-radius: 0px !important;
   background: black !important;
   height: 62px;
