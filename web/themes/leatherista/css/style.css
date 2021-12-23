@@ -431,7 +431,7 @@ ul.top-pick-for-you-slider {
   line-height: 1.6;
   padding-top: 20px;
 }
-.testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-prev.slick-arrow {
+.owl-carousel.owl-theme.owl-loaded.owl-drag:hover>.slick-prev.slick-arrow {
   border-radius: 0px !important;
   background: black !important;
   height: 62px;
@@ -445,7 +445,7 @@ ul.top-pick-for-you-slider {
   left: -210px;
 }
 
-.testimonials-front-slider.slick-initialized.slick-slider:hover>.slick-next.slick-arrow {
+.owl-carousel.owl-theme.owl-loaded.owl-drag:hover>.slick-next.slick-arrow {
   border-radius: 0px !important;
   background: black !important;
   height: 62px;
@@ -545,4 +545,13 @@ ul.top-pick-for-you-slider {
 }
 .js-form-wrapper .js-form-wrapper{
   margin: 15px auto;
+}
+.front-page-services-section .field--name-field-ser .field--name-field-logo {
+  float: left;
+  height: 90px;
+  width: 100px;
+}
+.front-page-services-section .field--name-field-ser .field--name-field-body span{
+  color: #555A6099;
+  font-weight: 400;
 }
