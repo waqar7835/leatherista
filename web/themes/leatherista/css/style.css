@@ -555,3 +555,11 @@ ul.top-pick-for-you-slider {
   color: #555A6099;
   font-weight: 400;
 }
+#block-shoppingcartpopup .commerce-cart-pop--summary__icon{
+  background: none !important;
+}
+#block-shoppingcartpopup .cart-block--summary {
+  background-image: url('../images/icon-top.png');
+  width: 40px;
+  height: 40px;
+}
