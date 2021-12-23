@@ -740,6 +740,11 @@ ul.top-pick-for-you-slider {
     height: 377.9333px;
 }
 
+.block-system-main-block .field--name-field-images img {
+    width: 522.5px;
+    height: 377.9333px;
+}
+
 .block-system-main-block .field--type-commerce-price .field__item {
     color: #9bbbbf !important;
     font-family: 'Montserrat';
