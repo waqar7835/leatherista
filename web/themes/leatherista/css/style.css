@@ -507,3 +507,42 @@ ul.top-pick-for-you-slider {
 .view-shop .view-content.row .views-row .views-field-title {
   margin-top: 20px;
 }
+.contact-us-from-section form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.contact-us-from-section .js-form-item-full-name {
+  width: 47%;
+}
+.contact-us-from-section .js-form-item-full-name input,
+.contact-us-from-section .js-form-item-email-address input,
+.contact-us-from-section .js-form-item-telephone input,
+.contact-us-from-section .js-form-item-website input{
+  padding-bottom: 32px;
+  border-radius: unset;
+  background: whitesmoke;
+  padding-left: 21px;
+}
+
+.contact-us-from-section .js-form-item-email-address {
+  width: 47%;
+}
+.contact-us-from-section .js-form-item-telephone {
+  width: 47%;
+}
+.contact-us-from-section .js-form-item-website{
+  width: 47%;
+}
+.js-form-wrapper .js-form-item-your-comments {
+  background-color: #555a60;
+  width: auto;
+  border-radius: 50px;
+  padding: 13px 63px;
+  border-color: #555a60;
+}
+.js-form-wrapper .js-form-wrapper{
+  margin: 15px auto;
+}
