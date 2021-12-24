@@ -790,3 +790,17 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     font-weight: 400;
     font-style: normal;
 }
+
+.block-page-title-block {
+    position: relative;
+}
+
+.block-page-title-block .field--name-title {
+    position: absolute;
+    left: 52%;
+    top: 75px;
+}
+
+.block-system-main-block .field--name-price {
+    padding-top: 50px;
+}
