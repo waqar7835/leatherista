@@ -886,3 +886,15 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     color: rgb(85 90 96 / 70%);
     font-family: 'lato-regular';
 }
+
+.node--type-blogs .sidebar_second {
+    width: 31.7%;
+}
+
+.node--type-blogs .main-content {
+    width: 50%;
+}
+
+.node--type-blogs .field--type-string {
+    display: none;
+}
