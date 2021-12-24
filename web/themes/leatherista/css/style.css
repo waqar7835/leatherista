@@ -882,7 +882,7 @@
         display: none;
     }
     
-    .node--type-blogs .sidebar_second .sidebar .block {
+    .node--type-blogs .sidebar .block {
         background-color: #fff;
         border: 1px solid #f6f6f6;
         border-top-color: rgb(246, 246, 246);
