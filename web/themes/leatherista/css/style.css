@@ -1,4 +1,4 @@
-/**
+    /**
  * @file
  * Subtheme specific CSS.
  */
@@ -889,6 +889,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 
 .node--type-blogs .sidebar_second {
     width: 31.7%;
+    padding-top: 103px;
 }
 
 .node--type-blogs .main-content {
@@ -898,3 +899,54 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 .node--type-blogs .field--type-string {
     display: none;
 }
+
+.node--type-blogs .sidebar_second .sidebar .block {
+    background-color: #fff;
+    border: 1px solid #f6f6f6;
+    border-top-color: rgb(246, 246, 246);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(246, 246, 246);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 4px solid #9bbbbf;
+}
+
+.node--type-blogs .sidebar_second .sidebar h2 {
+    margin: 0 0 0.5em;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: 'lato-regular';
+    color: #555a60;
+}
+
+.view-recent-blogs .view-content .views-row a {
+    font-size: 15px;
+    line-height: 25.6167px;
+    font-weight: 400;
+    margin-bottom: 1.16667rem;
+    color: #737373 !important;
+    text-decoration: none;
+    font-family: 'lato-regular';
+}
+
+.view-recent-blogs .view-content {
+    padding: 20px 30px;
+}
+
+.view-blog-categories-sidebar-view .view-content .views-row a {
+    font-size: 15px;
+    line-height: 25.6167px;
+    font-weight: 400;
+    margin-bottom: 1.16667rem;
+    color: #737373 !important;
+    text-decoration: none;
+    font-family: 'lato-regular';
+}
+
+.view-blog-categories-sidebar-view .view-content {
+    padding: 20px 30px;
