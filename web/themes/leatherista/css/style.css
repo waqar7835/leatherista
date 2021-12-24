@@ -847,3 +847,42 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 .node--type-blogs .inline__links {
     display: none;
 }
+
+.node--type-blogs .field--type-entity-reference .field__label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'lato-regular';
+    text-transform: uppercase;
+}
+
+.node--type-blogs .datetime {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    font-family: 'lato-regular';
+    text-transform: uppercase;
+    color: rgb(85 90 96 / 56%);
+}
+
+.node--type-blogs .field--name-field-date {
+    margin-top: -6px;
+}
+
+.node--type-blogs .field--name-body p:nth-of-type(1) {
+    text-align: left;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #555a60;
+    font-family: 'lato-regular';
+}
+
+.node--type-blogs .field--name-body p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 2.91667rem;
+    color: rgb(85 90 96 / 70%);
+    font-family: 'lato-regular';
+}
