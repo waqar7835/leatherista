@@ -804,3 +804,23 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 .block-system-main-block .field--name-price {
     padding-top: 50px;
 }
+
+.fieldset-wrapper .field--name-field-categoies {
+    display: flex;
+}
+
+.fieldset-wrapper .field--name-field-categoies .field__label {
+    font-family: 'lato-regular';
+    color: #555a60;
+}
+
+.fieldset-wrapper .field--name-field-categoies a {
+    font-family: 'lato-regular';
+    color: #555a60;
+    text-decoration: none;
+}
+
+.fieldset-wrapper .field--name-body p {
+    font-family: 'lato-regular';
+    color: #555a60;
+}
