@@ -574,7 +574,7 @@ ul.top-pick-for-you-slider {
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-    max-width: 750px;
+    /* max-width: 750px; */
     justify-content: space-between;
 }
 
@@ -721,7 +721,7 @@ ul.top-pick-for-you-slider {
 }
 
 .block-system-main-block {
-    width: 1140px;
+    width: 1250px;
     margin: 0 auto;
     max-width: 100%;
     padding-top: 5.33333rem;
@@ -823,4 +823,27 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 .fieldset-wrapper .field--name-body p {
     font-family: 'lato-regular';
     color: #555a60;
+}
+
+.node--type-blogs .layout-main-wrapper .container-fluid>.row {
+    flex-direction: row-reverse;
+    width: 1150px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.node--type-blogs .layout-main-wrapper .container-fluid>.row .field--type-image {
+    float: none;
+}
+
+.node--type-blogs .field--type-entity-reference>.field__items {
+    display: none;
+}
+
+.node--type-blogs .field--type-entity-reference {
+    float: left;
+}
+
+.node--type-blogs .inline__links {
+    display: none;
 }
