@@ -1340,6 +1340,6 @@ ul.top-pick-for-you-slider {
     width: 28px;
     height: 27px;
     position: absolute;
-    left: -2px;
+    right: 50%;
     top: 23px;
 }
