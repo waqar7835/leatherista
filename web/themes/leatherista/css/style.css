@@ -311,7 +311,7 @@ ul.top-pick-for-you-slider {
 }
 
 .site-footer__top .region-footer-second {
-    padding-left: 9px;
+    padding-left: 20px;
 }
 
 .site-footer .site-footer__top.clearfix h2,
@@ -322,6 +322,7 @@ ul.top-pick-for-you-slider {
     font-style: normal;
     font-weight: 600;
     font-family: 'Lato-Bold';
+    text-transform: capitalize;
 }
 
 .site-footer .block>.block-quicklinks-menu {
@@ -981,13 +982,14 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 #block-copyrightsfooterblock .field--name-body p {
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     padding-left: 0px;
     margin-left: -2px;
+    color: #fff;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    color: #fff;
+    font-family: 'lato-regular';
 }
 
 #block-leatheristalogofooter p:nth-of-type(1) {
@@ -1008,7 +1010,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 .site-footer__top .region-footer-third {
-    padding-left: 32px;
+    padding-left: 54px;
 }
 
 .region-footer-third .field--name-body p:nth-of-type(2) {
@@ -1041,6 +1043,14 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 .site-footer__top .region-footer-fourth {
-    padding-left: 45px;
-    width: 27%;
+    padding-left: 70px;
+    width: 28%;
+}
+
+.site-footer__top .region-footer-fourth #block-views-block-footer-products-view-block-1 {
+    padding-left: 18px;
+}
+
+#block-leatheristalogofooter p:nth-of-type(2) {
+    padding-top: 1px;
 }
