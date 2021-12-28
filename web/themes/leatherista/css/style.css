@@ -59,6 +59,7 @@ body.path-frontpage main.main-content {
     font-weight: normal;
     text-decoration: none;
     margin-right: 41px;
+    position: relative;
 }
 
 #block-mainmenu ul.nav li a:active,
@@ -1085,4 +1086,35 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     -webkit-transform-origin: left center;
     -ms-transform-origin: left center;
     transform-origin: left center;
+}
+
+#block-mainmenu ul.nav li:nth-of-type(1) a::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#block-mainmenu ul.nav li:nth-of-type(1) a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    will-change: transform;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
 }
