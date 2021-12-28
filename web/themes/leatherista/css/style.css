@@ -443,12 +443,14 @@ ul.top-pick-for-you-slider {
     justify-content: space-between;
     padding: 26px 10px 17px 10px;
     border-bottom: 1px solid #f6f6f6;
+    position: relative;
 }
 
 .latest-initiatives-data .tagdate a {
     color: rgb(85 90 96 / 56%);
     font-size: 14px;
     text-decoration: none;
+    padding-left: 25px;
 }
 
 .latest-initiatives-data .tagdate a:hover {
@@ -457,6 +459,7 @@ ul.top-pick-for-you-slider {
 
 .latest-initiatives-data .tagdate .datetime {
     color: rgb(85 90 96 / 56%);
+    position: relative;
 }
 
 .latest-initiatives-data .titlebody a {
@@ -1326,4 +1329,17 @@ ul.top-pick-for-you-slider {
     background-image: url('../images/msg-box.png');
     width: 28px;
     height: 27px;
+    position: absolute;
+    left: -2px;
+    top: 23px;
+}
+
+.latest-initiatives-data .tagdate .datetime::before {
+    content: '';
+    background-image: url('../images/time-box.png');
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    left: -2px;
+    top: 23px;
 }
