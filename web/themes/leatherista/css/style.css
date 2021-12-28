@@ -1379,3 +1379,7 @@ ul.top-pick-for-you-slider {
     height: 34px;
     right: 5px;
 }
+
+.node--type-blogs .block-page-title-block {
+    display: none;
+}
