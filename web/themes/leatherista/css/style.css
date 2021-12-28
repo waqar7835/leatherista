@@ -231,7 +231,7 @@ ul.top-pick-for-you-slider {
     margin-right: auto;
     margin-left: auto;
     max-width: 1150px;
-    padding: 68px 27px 45px 28px;
+    padding: 68px 27px 35px 28px;
 }
 
 .site-footer .block {
@@ -355,7 +355,7 @@ ul.top-pick-for-you-slider {
 .view-footer-products-view .views-row {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 19px !important;
+    padding-bottom: 35px !important;
     margin-bottom: 1rem;
     border-bottom: 1px solid hsl(0deg 0% 94% / 17%);
     flex-wrap: wrap;
@@ -982,7 +982,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 #block-copyrightsfooterblock .field--name-body p {
-    margin-bottom: 11px;
+    margin-bottom: 20px;
     padding-left: 0px;
     margin-left: -2px;
     color: #fff;
@@ -1031,6 +1031,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
+    margin-top: 3px;
 }
 
 .view-footer-products-view .views-row .views-field.views-field-variations-target-id .field__label {
