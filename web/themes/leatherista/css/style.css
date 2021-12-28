@@ -231,7 +231,7 @@ ul.top-pick-for-you-slider {
     margin-right: auto;
     margin-left: auto;
     max-width: 1150px;
-    padding: 70px 32px 0 32px;
+    padding: 68px 27px 45px 28px;
 }
 
 .site-footer .block {
@@ -246,6 +246,7 @@ ul.top-pick-for-you-slider {
 .menu--quick-links .nav {
     flex-direction: column;
     padding-top: 6px;
+    padding-left: 3px;
 }
 
 .front-categoies-section .view-front-categoies-views .view-content .views-row .views-field-name {
@@ -305,6 +306,14 @@ ul.top-pick-for-you-slider {
     height: 94px;
 }
 
+.site-footer__top .region:first-child {
+    padding-left: 4px;
+}
+
+.site-footer__top .region-footer-second {
+    padding-left: 9px;
+}
+
 .site-footer .site-footer__top.clearfix h2,
 .site-footer .site-footer__top.clearfix h3 {
     font-size: 23px;
@@ -321,16 +330,25 @@ ul.top-pick-for-you-slider {
 
 #block-quicklinks-menu {
     padding-top: 10px;
+    margin-bottom: 0 !important;
+    padding-left: 19px;
 }
 
 .site-footer .menu--quick-links .nav a {
-    color: #fff;
     font-size: 15px;
+    line-height: 26.25px;
+    font-family: 'lato-regular';
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(255 255 255 / 70%) !important;
 }
 
 .region-footer-third p {
-    font-size: 15px;
     color: rgb(255 255 255 / 70%);
+    font-size: 15px;
+    line-height: 26.25px;
+    font-weight: 400;
+    font-family: 'lato-regular';
 }
 
 .view-footer-products-view .views-row {
@@ -339,6 +357,8 @@ ul.top-pick-for-you-slider {
     padding-bottom: 19px !important;
     margin-bottom: 1rem;
     border-bottom: 1px solid hsl(0deg 0% 94% / 17%);
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .view-footer-products-view .views-row img {
@@ -357,9 +377,13 @@ ul.top-pick-for-you-slider {
 }
 
 .view-footer-products-view .views-row a {
-    font-weight: bold;
-    font-size: 16px;
     text-decoration: none;
+    font-style: normal;
+    font-family: 'Lato-Bold';
+    font-size: 15px;
+    line-height: 26.25px;
+    font-weight: 600;
+    color: #fff !important;
 }
 
 .view-footer-products-view {
@@ -367,7 +391,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-footer-products-view .views-row .views-field-title {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .site-footer .container-fluid {
@@ -947,7 +971,13 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 #block-leatheristalogofooter p {
-    color: #fff;
+    font-family: 'lato-regular';
+    font-style: normal;
+    padding: 0 23px 0 0;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(255 255 255 / 70%) !important;
 }
 
 #block-copyrightsfooterblock .field--name-body p {
@@ -961,6 +991,56 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 }
 
 #block-leatheristalogofooter p:nth-of-type(1) {
-    margin-top: 15px;
+    margin-top: 18px;
     margin-bottom: 0;
+}
+
+.site-footer .menu--quick-links .nav .nav-item:nth-of-type(1) {
+    padding-top: 1px;
+}
+
+.site-footer .menu--quick-links .nav .nav-item:nth-of-type(2) a {
+    padding-top: 7px;
+}
+
+.site-footer .menu--quick-links .nav .nav-item:nth-of-type(3) a {
+    padding-top: 6px;
+}
+
+.site-footer__top .region-footer-third {
+    padding-left: 32px;
+}
+
+.region-footer-third .field--name-body p:nth-of-type(2) {
+    padding-top: 0px;
+    margin-top: -1px;
+}
+
+.region-footer-third .field--name-body p:nth-of-type(3) {
+    margin-top: -2px;
+}
+
+.view-footer-products-view .views-row .views-field.views-field-variations-target-id {
+    width: 100%;
+}
+
+.view-footer-products-view .views-row .views-field.views-field-variations-target-id .field__item {
+    font-family: 'montserrat bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.view-footer-products-view .views-row .views-field.views-field-variations-target-id .field__label {
+    display: none;
+}
+
+.view-footer-products-view .views-row .views-field.views-field-field-images {
+    position: absolute;
+    right: 1px;
+}
+
+.site-footer__top .region-footer-fourth {
+    padding-left: 45px;
+    width: 27%;
 }
