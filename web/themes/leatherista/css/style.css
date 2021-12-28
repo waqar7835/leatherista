@@ -1282,3 +1282,14 @@ ul.top-pick-for-you-slider {
 .view-top-picks-for-you ul:hover button.slick-prev {
     visibility: visible;
 }
+
+.view-top-picks-for-you ul button.slick-prev:hover,
+.view-top-picks-for-you ul button.slick-prev:focus,
+.view-top-picks-for-you ul button.slick-next:hover,
+.view-top-picks-for-you ul button.slick-next:focus {
+    background: #9bbbbf !important;
+    width: 70px;
+    height: 70px;
+    top: 35px;
+    transition: 0.3s;
+}
