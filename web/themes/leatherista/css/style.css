@@ -218,7 +218,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-blogs-homepage {
-    padding: 50px;
+    padding: 113px 50px 50px 50px;
     width: 80%;
     margin: 0 auto;
 }
@@ -1318,4 +1318,11 @@ ul.top-pick-for-you-slider {
     font-weight: 400;
     font-family: 'lato-regular';
     color: #555A60;
+}
+
+.latest-initiatives-data .tagdate a::after {
+    content: '';
+    background-image: url('../images/msg-box.png');
+    width: 28px;
+    height: 27px;
 }
