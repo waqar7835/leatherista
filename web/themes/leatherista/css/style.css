@@ -1320,7 +1320,7 @@ ul.top-pick-for-you-slider {
     color: #555A60;
 }
 
-.latest-initiatives-data .tagdate a::after {
+.latest-initiatives-data .tagdate a::before {
     content: '';
     background-image: url('../images/msg-box.png');
     width: 28px;
