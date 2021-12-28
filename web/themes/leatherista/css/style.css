@@ -1355,3 +1355,11 @@ ul.top-pick-for-you-slider {
     margin: 0 auto;
     max-width: 100%;
 }
+
+.page-node-1 .block-page-title-block {
+    display: none;
+}
+
+.page-node-1 .block-system-main-block {
+    display: none;
+}
