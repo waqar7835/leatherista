@@ -185,11 +185,11 @@ ul.top-pick-for-you-slider {
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
-    background: #9bbbbf !important;
+    /* background: #9bbbbf !important;
     width: 70px;
     height: 70px;
     top: 35px;
-    transition: 0.3s;
+    transition: 0.3s; */
 }
 
 .view-testimonials-front-view .slick-next .view-top-picks-for-you .slick-next {
@@ -1298,6 +1298,7 @@ ul.top-pick-for-you-slider {
 
 .view-testimonials-front-view .view-header {
     text-align: center;
+    padding-bottom: 43px;
 }
 
 .view-testimonials-front-view .view-header h3 {
