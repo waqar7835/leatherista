@@ -1205,6 +1205,13 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     top: 174px;
 }
 
+form.commerce-order-item-add-to-cart-form input.js-form-submit:hover::after {
+    content: '+';
+    top: -114px;
+    z-index: 9999;
+    font-size: 25px;
+}
+
 form.commerce-order-item-add-to-cart-form input.js-form-submit::after {
     content: '+';
     font-size: 12px;
@@ -1212,4 +1219,8 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit::after {
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-variations-target-id::after {
     content: '+';
+    top: -114px;
+    position: relative;
+    z-index: 999;
+    font-size: 25px;
 }
