@@ -1261,6 +1261,7 @@ ul.top-pick-for-you-slider {
     width: 60px;
     top: 35px;
     transition: 0.3s;
+    visibility: hidden;
 }
 
 .view-top-picks-for-you ul button.slick-next {
@@ -1270,5 +1271,14 @@ ul.top-pick-for-you-slider {
     height: 70px;
     width: 60px;
     top: 35px;
+    visibility: hidden;
     transition: 0.3s;
+}
+
+.view-top-picks-for-you ul:hover button.slick-next {
+    visibility: visible;
+}
+
+.view-top-picks-for-you ul:hover button.slick-prev {
+    visibility: visible;
 }
