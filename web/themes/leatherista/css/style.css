@@ -1365,8 +1365,10 @@ ul.top-pick-for-you-slider {
     display: none;
 }
 
-.latest-initiatives-data .Link.to.Content a::after {
+.latest-initiatives-data .Link.to.Content a::before {
     content: '';
     background-image: url('../images/btn-icon.png');
     position: absolute;
+    width: 36px;
+    height: 34px;
 }
