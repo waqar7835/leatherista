@@ -99,6 +99,7 @@ ul.top-pick-for-you-slider {
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li {
     text-align: center;
+    position: relative;
 }
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-title a {
@@ -1207,4 +1208,8 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
 form.commerce-order-item-add-to-cart-form input.js-form-submit::after {
     content: '+';
     font-size: 12px;
+}
+
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-variations-target-id::after {
+    content: '+';
 }
