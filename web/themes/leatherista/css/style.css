@@ -459,7 +459,6 @@ ul.top-pick-for-you-slider {
 
 .latest-initiatives-data .tagdate .datetime {
     color: rgb(85 90 96 / 56%);
-    position: relative;
 }
 
 .latest-initiatives-data .titlebody a {
@@ -1342,4 +1341,8 @@ ul.top-pick-for-you-slider {
     position: absolute;
     right: 50%;
     top: 23px;
+}
+
+.latest-initiatives-data {
+    position: relative;
 }
