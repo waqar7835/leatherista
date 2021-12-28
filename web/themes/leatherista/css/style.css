@@ -485,7 +485,13 @@ ul.top-pick-for-you-slider {
     border-radius: 4px;
     display: inline-flex;
     align-items: center;
-    padding: 12px 65px 12px 35px;
+    padding: 12px 50px 12px 20px;
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'lato-regular';
 }
 
 .latest-initiatives-data .titlebody {
@@ -1371,4 +1377,5 @@ ul.top-pick-for-you-slider {
     position: absolute;
     width: 36px;
     height: 34px;
+    right: 5px;
 }
