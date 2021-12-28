@@ -1253,7 +1253,7 @@ ul.top-pick-for-you-slider {
     color: #fff !important;
 }
 
-.view-top-picks-for-you ul button .slick-prev {
+.view-top-picks-for-you ul button.slick-prev {
     background-color: #555a60;
     border-radius: 0px 0px 30px 0px;
     z-index: 1;
@@ -1263,7 +1263,7 @@ ul.top-pick-for-you-slider {
     transition: 0.3s;
 }
 
-.view-top-picks-for-you ul button .slick-next {
+.view-top-picks-for-you ul button.slick-next {
     background-color: #555a60;
     border-radius: 0px 0px 0px 30px;
     z-index: 1;
