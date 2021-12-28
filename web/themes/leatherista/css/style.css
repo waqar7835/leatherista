@@ -770,7 +770,7 @@ ul.top-pick-for-you-slider {
     font-size: 22px;
 }
 
-form.commerce-order-item-add-to-cart-form input.js-form-submit {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit {
     font-family: "Lato-Bold", sans-serif;
     line-height: 1 !important;
     font-weight: 600 !important;
@@ -793,7 +793,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit {
     font-size: 13px;
 }
 
-form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     background-color: #9bbbbf !important;
     border-color: #333333 !important;
     color: #ffffff !important;
@@ -1159,7 +1159,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     visibility: visible;
 }
 
-form.commerce-order-item-add-to-cart-form input.js-form-submit {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit {
     font-family: "Lato-Bold", sans-serif;
     line-height: 1 !important;
     font-weight: 600 !important;
@@ -1172,7 +1172,7 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit {
     font-size: 0 !important;
     display: inline-block;
     float: left;
-    height: 42px !important;
+    height: 22px !important;
     width: 42px !important;
     line-height: 42px !important;
     border: none !important;
@@ -1198,15 +1198,16 @@ form.commerce-order-item-add-to-cart-form input.js-form-submit {
     transition: 0.2s ease !important;
 }
 
-form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit:hover {
     border-color: #333333 !important;
     color: #ffffff !important;
     background-color: #9bbbbf !important;
     transform: scale(1.3);
     top: 174px;
+    height: 42px !important;
 }
 
-form.commerce-order-item-add-to-cart-form input.js-form-submit::after {
+.top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit::after {
     content: '+';
     font-size: 12px;
 }
