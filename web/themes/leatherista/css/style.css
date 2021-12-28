@@ -599,6 +599,7 @@ ul.top-pick-for-you-slider {
 .view-shop .view-content.row .views-row {
     width: 33%;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .view-shop .view-content.row .views-row img {
@@ -1218,4 +1219,23 @@ ul.top-pick-for-you-slider {
     position: relative;
     z-index: 999;
     font-size: 25px;
+}
+
+.view-shop .view-content.row .views-row form.commerce-order-item-add-to-cart-form input.js-form-submit {
+    background: transparent;
+    color: #000;
+    border: none;
+}
+
+.view-shop .view-content.row .views-row .views-field-variations-target-id-1 {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.view-shop .view-content.row .views-row:hover .views-field-variations-target-id-1 {
+    visibility: visible;
+    bottom: 22%;
 }
