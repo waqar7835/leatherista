@@ -219,7 +219,7 @@ ul.top-pick-for-you-slider {
 
 .view-blogs-homepage {
     padding: 113px 50px 50px 50px;
-    width: 80%;
+    width: 99%;
     margin: 0 auto;
 }
 
@@ -813,6 +813,8 @@ ul.top-pick-for-you-slider {
 
 .block-page-title-block {
     position: relative;
+    padding: 118px 0 124px 0px;
+    background-color: #ecf1f4;
 }
 
 .block-page-title-block .field--name-title {
@@ -1346,4 +1348,10 @@ ul.top-pick-for-you-slider {
 
 .latest-initiatives-data {
     position: relative;
+}
+
+.block-page-title-block h1 {
+    width: 1150px;
+    margin: 0 auto;
+    max-width: 100%;
 }
