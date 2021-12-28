@@ -597,7 +597,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-shop .view-content.row .views-row {
-    width: 33%;
+    width: 27%;
     margin-bottom: 20px;
     position: relative;
 }
@@ -607,7 +607,7 @@ ul.top-pick-for-you-slider {
     height: 100%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 300px;
+    height: 200px;
     object-fit: contain;
 }
 
@@ -615,7 +615,7 @@ ul.top-pick-for-you-slider {
     width: 100%;
 }
 
-.view-shop .view-content.row .views-row img:hover {
+.view-shop .view-content.row .views-row:hover img {
     transition: 0.5s;
     background-color: #9bbbbf;
     opacity: 0.7;
@@ -1233,9 +1233,10 @@ ul.top-pick-for-you-slider {
     left: 0;
     right: 0;
     visibility: hidden;
+    transition: 0.3s;
 }
 
 .view-shop .view-content.row .views-row:hover .views-field-variations-target-id-1 {
     visibility: visible;
-    bottom: 22%;
+    bottom: 28.6%;
 }
