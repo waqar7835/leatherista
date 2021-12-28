@@ -120,6 +120,7 @@ ul.top-pick-for-you-slider {
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider li:hover .views-field-field-images {
     background-color: rgb(155 187 191 / 50%);
+    border-radius: 0px 0px 35px 35px;
 }
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .views-field-price__number {
@@ -219,7 +220,7 @@ ul.top-pick-for-you-slider {
 
 .view-blogs-homepage {
     padding: 113px 50px 50px 50px;
-    width: 99%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -414,7 +415,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-blogs-homepage .row .views-row {
-    flex-basis: 31%;
+    flex-basis: 32%;
     margin-bottom: 30px;
 }
 
@@ -484,7 +485,7 @@ ul.top-pick-for-you-slider {
     border-radius: 4px;
     display: inline-flex;
     align-items: center;
-    padding: 12px 35px;
+    padding: 12px 65px 12px 35px;
 }
 
 .latest-initiatives-data .titlebody {
@@ -1362,4 +1363,10 @@ ul.top-pick-for-you-slider {
 
 .page-node-1 .block-system-main-block {
     display: none;
+}
+
+.latest-initiatives-data .Link.to.Content a::after {
+    content: '';
+    background-image: url('../images/btn-icon.png');
+    position: absolute;
 }
