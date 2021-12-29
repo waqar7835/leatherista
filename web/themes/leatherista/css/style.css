@@ -416,7 +416,7 @@ ul.top-pick-for-you-slider {
 
 .view-blogs-homepage .row .views-row {
     flex-basis: 32%;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .latest-initiatives-data .blogimage {
@@ -426,7 +426,7 @@ ul.top-pick-for-you-slider {
 
 .latest-initiatives-data .blogimage img {
     width: 100%;
-    height: 176px;
+    height: 210px;
     object-fit: cover;
     transform: scale(1);
     will-change: transform;
@@ -501,6 +501,7 @@ ul.top-pick-for-you-slider {
 .latest-initiatives-data .titlebody .title {
     padding-bottom: 10px;
     padding-top: 10px;
+    min-height: 80px;
 }
 
 .view-blogs-homepage .view-header h3 {
@@ -1483,6 +1484,7 @@ ul.top-pick-for-you-slider {
     }
     .view-blogs-homepage .row .views-row {
         flex-basis: 100%;
+        margin-bottom: 30px;
     }
     .site-footer__top .region-footer-second {
         padding-left: 0;
