@@ -1287,7 +1287,7 @@ ul.top-pick-for-you-slider {
 
 .view-shop .view-content.row .views-row .views-field-variations-target-id-1 {
     position: absolute;
-    bottom: 34.5%;
+    bottom: 38.6%;
     left: 0;
     right: 0;
     visibility: hidden;
@@ -1296,7 +1296,7 @@ ul.top-pick-for-you-slider {
 
 .view-shop .view-content.row .views-row:hover .views-field-variations-target-id-1 {
     visibility: visible;
-    bottom: 37.6%;
+    bottom: 39.6%;
 }
 
 .view-top-picks-for-you .view-header {
