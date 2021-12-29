@@ -883,6 +883,8 @@ ul.top-pick-for-you-slider {
     line-height: 21px;
     font-family: 'lato-regular';
     text-transform: uppercase;
+    position: relative;
+    padding-left: 50px;
 }
 
 .node--type-blogs .datetime {
@@ -892,6 +894,8 @@ ul.top-pick-for-you-slider {
     font-family: 'lato-regular';
     text-transform: uppercase;
     color: rgb(85 90 96 / 56%);
+    position: relative;
+    padding-left: 100px;
 }
 
 .node--type-blogs .field--name-field-date {
@@ -905,6 +909,7 @@ ul.top-pick-for-you-slider {
     font-weight: 400;
     color: #555a60;
     font-family: 'lato-regular';
+    margin-top: 50px;
 }
 
 .node--type-blogs .field--name-body p {
@@ -939,6 +944,11 @@ ul.top-pick-for-you-slider {
     border-top-style: solid;
     border-top-width: 1px;
     border-top: 4px solid #9bbbbf;
+}
+
+#block-blogstagssidebarmenu h2 {
+    color: #9bbbbf;
+    font-size: 21px;
 }
 
 .node--type-blogs .sidebar h2 {
@@ -1384,10 +1394,6 @@ ul.top-pick-for-you-slider {
     display: none;
 }
 
-.node--type-blogs .field--name-body p:nth-of-type(1) strong {
-    margin-left: -35px;
-}
-
 .node--type-blogs .sidebar .block ul {
     display: block;
 }
@@ -1403,3 +1409,115 @@ ul.top-pick-for-you-slider {
 .node--type-blogs .sidebar .block ul li a:hover {
     color: #000;
 }
+
+.node--type-blogs .field--type-entity-reference .field__label::before {
+    content: '';
+    background-image: url('../images/msg-box.png');
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+}
+
+.node--type-blogs .datetime::before {
+    content: '';
+    background-image: url('../images/time-box.png');
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    left: 40px;
+    top: -7px;
+}
+
+
+/*  */
+
+@media only screen and (max-width: 320px) and (min-width: 575px) {
+    /* home page styling start */
+    .front-categoies-section .view-front-categoies-views .view-content .views-row {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .front-categoies-section {
+        padding-top: 10px;
+    }
+    .view-testimonials-front-view ul {
+        padding: 20px;
+        width: 95%;
+    }
+    .testimonials-front-view-section {
+        padding: 0;
+    }
+    .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-image {
+        float: none;
+        width: auto;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name {
+        margin: 0 auto;
+    }
+    .front-page-services-section .field--name-field-ser>.field__item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .front-page-services-section .field--name-field-ser .field--name-field-logo {
+        float: none;
+        height: 90px;
+        width: 60px;
+        margin: 0 auto;
+    }
+    .front-page-services-section .field--name-field-ser .field--name-field-body p {
+        text-align: center;
+    }
+    .front-page-services-section .field--name-field-ser .field--name-field-title {
+        text-align: center;
+    }
+    .view-blogs-homepage {
+        padding: 50px 15px 50px 15px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .path-frontpage .view-blogs-homepage .row {
+        flex-wrap: wrap;
+    }
+    .view-blogs-homepage .row .views-row {
+        flex-basis: 100%;
+    }
+    .site-footer__top .region-footer-second {
+        padding-left: 0;
+        width: 320px;
+    }
+    .site-footer__top .region-footer-third {
+        padding-left: 0;
+        width: 320px;
+    }
+    .site-footer__top .region-footer-fourth {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .view-footer-products-view .views-row:nth-of-type(2) {
+        border: unset;
+    }
+    /* header start */
+    #header {
+        background-color: #9BBBBF;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #navbar-main {
+        max-width: 100%;
+    }
+    .fontyourface .main-content section.section {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 767px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 1023px) {}
+
+@media only screen and (max-width: 1024px) and (min-width: 1200px) {}
