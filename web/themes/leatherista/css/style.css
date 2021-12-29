@@ -620,10 +620,6 @@ ul.top-pick-for-you-slider {
     object-fit: contain;
 }
 
-.path-product .block-page-title-block {
-    display: none;
-}
-
 .view-shop .view-content.row .views-row img {
     width: 100%;
 }
@@ -782,6 +778,30 @@ ul.top-pick-for-you-slider {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 22px;
+}
+
+.block-leatherista-content .field--type-commerce-price .input {
+    font-family: "Lato-Bold", sans-serif !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.333px;
+    cursor: pointer !important;
+    border-radius: 0 !important;
+    border: 1px solid transparent !important;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    box-shadow: none !important;
+    transition: background-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, border-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s !important;
+    color: #ffffff !important;
+    border-color: #181818 !important;
+    background-color: #181818 !important;
+    display: block;
+    width: 162px;
+    font-size: 13px;
+    height: 52px;
 }
 
 .top-picks-for-you-section .view-top-picks-for-you ul.top-pick-for-you-slider .slick-slide li form.commerce-order-item-add-to-cart-form input.js-form-submit {
@@ -1433,6 +1453,21 @@ ul.top-pick-for-you-slider {
     position: absolute;
     left: 40px;
     top: -7px;
+}
+
+.path-product .block-page-title-block {
+    display: block;
+    background: transparent;
+    position: absolute;
+    padding: 0;
+}
+
+.path-product .block-system-main-block {
+    margin-top: 80px;
+}
+
+.block-page-title-block .field--name-title {
+    left: 64%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
