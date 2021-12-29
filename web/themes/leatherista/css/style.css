@@ -603,6 +603,7 @@ ul.top-pick-for-you-slider {
     margin-left: auto;
     /* max-width: 750px; */
     /* justify-content: space-between; */
+    margin-top: 80px;
 }
 
 .view-shop .view-content.row .views-row {
@@ -1295,7 +1296,7 @@ ul.top-pick-for-you-slider {
 
 .view-shop .view-content.row .views-row:hover .views-field-variations-target-id-1 {
     visibility: visible;
-    bottom: 35.6%;
+    bottom: 37.6%;
 }
 
 .view-top-picks-for-you .view-header {
