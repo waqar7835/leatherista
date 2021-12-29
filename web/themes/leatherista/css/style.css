@@ -1291,7 +1291,7 @@ ul.top-pick-for-you-slider {
     left: 0;
     right: 0;
     visibility: hidden;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .view-shop .view-content.row .views-row:hover .views-field-variations-target-id-1 {
