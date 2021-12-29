@@ -606,7 +606,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-shop .view-content.row .views-row {
-    width: 27%;
+    width: 22%;
     margin-bottom: 20px;
     position: relative;
 }
@@ -618,6 +618,10 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 25px;
     height: 200px;
     object-fit: contain;
+}
+
+.path-product .block-page-title-block {
+    display: none;
 }
 
 .view-shop .view-content.row .views-row img {
@@ -752,7 +756,7 @@ ul.top-pick-for-you-slider {
     width: 1250px;
     margin: 0 auto;
     max-width: 100%;
-    padding-top: 5.33333rem;
+    padding-top: 0;
 }
 
 .block-system-main-block .field--name-field-images {
