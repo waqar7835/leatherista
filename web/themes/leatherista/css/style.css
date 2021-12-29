@@ -883,6 +883,7 @@ ul.top-pick-for-you-slider {
     line-height: 21px;
     font-family: 'lato-regular';
     text-transform: uppercase;
+    position: relative;
 }
 
 .node--type-blogs .datetime {
@@ -892,6 +893,7 @@ ul.top-pick-for-you-slider {
     font-family: 'lato-regular';
     text-transform: uppercase;
     color: rgb(85 90 96 / 56%);
+    position: relative;
 }
 
 .node--type-blogs .field--name-field-date {
@@ -939,6 +941,11 @@ ul.top-pick-for-you-slider {
     border-top-style: solid;
     border-top-width: 1px;
     border-top: 4px solid #9bbbbf;
+}
+
+#block-blogstagssidebarmenu h2 {
+    color: #9bbbbf;
+    font-size: 21px;
 }
 
 .node--type-blogs .sidebar h2 {
@@ -1402,4 +1409,24 @@ ul.top-pick-for-you-slider {
 
 .node--type-blogs .sidebar .block ul li a:hover {
     color: #000;
+}
+
+.node--type-blogs .field--type-entity-reference .field__label::before {
+    content: '';
+    background-image: url('../images/msg-box.png');
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    left: -2px;
+    top: 23px;
+}
+
+.node--type-blogs .datetime::before {
+    content: '';
+    background-image: url('../images/time-box.png');
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    right: 50%;
+    top: 23px;
 }
