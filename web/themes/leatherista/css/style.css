@@ -1511,6 +1511,10 @@ ul.top-pick-for-you-slider {
     padding-top: 15px;
 }
 
+.path-shop main {
+    padding: 0;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* home page styling start */
     .front-categoies-section .view-front-categoies-views .view-content .views-row {
