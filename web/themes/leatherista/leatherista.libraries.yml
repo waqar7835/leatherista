@@ -4,6 +4,8 @@ global-styling:
     js/global.js: {}
     js/slick.js: {}
     js/slick.min.js: {}
+    js/jquery.zoom.js: {}
+    js/jquery.zoom.min.js: {}
   css:
     component:
       css/style.css: {}
