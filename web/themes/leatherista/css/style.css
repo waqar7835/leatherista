@@ -780,7 +780,7 @@ ul.top-pick-for-you-slider {
     font-size: 22px;
 }
 
-.block-leatherista-content .field--type-commerce-price .input {
+.path-product article form input {
     font-family: "Lato-Bold", sans-serif !important;
     line-height: 1 !important;
     font-weight: 600 !important;
