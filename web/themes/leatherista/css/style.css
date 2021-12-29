@@ -894,6 +894,7 @@ ul.top-pick-for-you-slider {
     text-transform: uppercase;
     color: rgb(85 90 96 / 56%);
     position: relative;
+    padding-left: 100px;
 }
 
 .node--type-blogs .field--name-field-date {
@@ -907,6 +908,7 @@ ul.top-pick-for-you-slider {
     font-weight: 400;
     color: #555a60;
     font-family: 'lato-regular';
+    margin-top: 50px;
 }
 
 .node--type-blogs .field--name-body p {
@@ -1391,10 +1393,6 @@ ul.top-pick-for-you-slider {
     display: none;
 }
 
-.node--type-blogs .field--name-body p:nth-of-type(1) strong {
-    margin-left: -35px;
-}
-
 .node--type-blogs .sidebar .block ul {
     display: block;
 }
@@ -1417,8 +1415,8 @@ ul.top-pick-for-you-slider {
     width: 28px;
     height: 27px;
     position: absolute;
-    left: -2px;
-    top: 23px;
+    left: 0px;
+    top: -5px;
 }
 
 .node--type-blogs .datetime::before {
@@ -1427,6 +1425,6 @@ ul.top-pick-for-you-slider {
     width: 28px;
     height: 27px;
     position: absolute;
-    right: 50%;
-    top: 23px;
+    left: 40px;
+    top: -7px;
 }
