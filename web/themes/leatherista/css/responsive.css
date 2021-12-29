@@ -9,6 +9,7 @@
     .front-categoies-section {
         padding-top: 10px;
     }
+    /*  */
     .view-testimonials-front-view ul {
         padding: 20px;
         width: 95%;
@@ -68,12 +69,14 @@
     .view-footer-products-view .views-row:nth-of-type(2) {
         border: unset;
     }
+    /*  */
     /* header start */
     #header {
         background-color: #9BBBBF;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        display: none;
     }
     #navbar-main {
         max-width: 100%;
@@ -100,6 +103,7 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    /*  */
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {}
