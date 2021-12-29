@@ -666,6 +666,7 @@ ul.top-pick-for-you-slider {
     width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
+    padding-bottom: 117px;
 }
 
 .contact-us-from-section .js-form-item-full-name {
@@ -1507,6 +1508,7 @@ ul.top-pick-for-you-slider {
 
 .contact-us-from-section form .webform-actions {
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
