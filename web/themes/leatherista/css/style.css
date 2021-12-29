@@ -1500,7 +1500,7 @@ ul.top-pick-for-you-slider {
     background-color: #555a60;
 }
 
-.contact-us-from-section form .webform-actions input {
+.contact-us-from-section form .webform-actions input:hover {
     background-color: #9bbbbf !important;
     color: #fff !important;
 }
