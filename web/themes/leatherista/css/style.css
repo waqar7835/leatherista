@@ -666,6 +666,7 @@ ul.top-pick-for-you-slider {
     width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
+    padding-bottom: 117px;
 }
 
 .contact-us-from-section .js-form-item-full-name {
@@ -676,10 +677,11 @@ ul.top-pick-for-you-slider {
 .contact-us-from-section .js-form-item-email-address input,
 .contact-us-from-section .js-form-item-telephone input,
 .contact-us-from-section .js-form-item-website input {
-    padding-bottom: 32px;
     border-radius: unset;
     background: whitesmoke;
-    padding-left: 21px;
+    padding: 16px 20px;
+    border: unset;
+    border-bottom: 1px solid lightgray;
 }
 
 .contact-us-from-section .js-form-item-email-address {
@@ -759,6 +761,8 @@ ul.top-pick-for-you-slider {
 
 .contact-us-from-section .js-form-item-your-comments textarea {
     background: whitesmoke;
+    border: unset;
+    border-bottom: 1px solid lightgray;
 }
 
 .block-system-main-block {
@@ -1482,6 +1486,33 @@ ul.top-pick-for-you-slider {
 .path-product .block-page-title-block .field--name-title {
     left: 64%;
     top: 0px;
+}
+
+.contact-us-from-section form .webform-actions input {
+    font-family: "lato-regular", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.000px;
+    font-weight: 400;
+    line-height: 13px;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: #555a60;
+    background-color: #555a60;
+}
+
+.contact-us-from-section form .webform-actions input:hover {
+    background-color: #9bbbbf !important;
+    color: #fff !important;
+}
+
+.contact-us-from-section form .webform-actions {
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.path-shop main {
+    padding: 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
