@@ -1,6 +1,6 @@
 // Example:
-$(document).ready(function(){
-    $('a.photo').zoom({url: 'photo-big.jpg'});
+jQuery(document).ready(function(){
+    jQuery('a.photo').zoom({url: 'photo-big.jpg'});
   });
   
   // Using Colorbox with Zoom
