@@ -1618,6 +1618,29 @@ ul.top-pick-for-you-slider {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
+    /* menu start */
+    .block-superfish .sf-menu li.sf-depth-1 a::after {
+        border: unset !important;
+    }
+    .block-superfish .sf-menu a {
+        color: #1F2F43CC !important;
+    }
+    #superfish-main--accordion {
+        position: absolute !important;
+        top: 90px !important;
+        left: unset !important;
+        right: 10px !important;
+        width: 170px;
+        background: #fff;
+        padding: 10px 10px;
+    }
+    .block-superfish .sf-accordion-toggle.sf-style-none {
+        margin-top: 0px;
+        position: absolute;
+        top: 50px;
+        z-index: 999999;
+    }
+    /* menu closed */
     /* home page styling start */
     .block-superfish span {
         font-size: 0px;
