@@ -1619,6 +1619,12 @@ ul.top-pick-for-you-slider {
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
+    #superfish-main--accordion li.sf-expanded a::before {
+        content: '-';
+    }
+    #superfish-main--accordion li:nth-of-type(3) a::before {
+        content: '+';
+    }
     .block-superfish .sf-menu li.sf-depth-1 a::after {
         border: unset !important;
     }
