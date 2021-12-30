@@ -6,6 +6,7 @@ global-styling:
     js/slick.min.js: {}
     js/jquery.zoom.js: {}
     js/jquery.zoom.min.js: {}
+    js/zoomeffect.js: {}
   css:
     component:
       css/style.css: {}
