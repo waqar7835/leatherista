@@ -4,5 +4,5 @@ jQuery(document).ready(function(){
       .css('display', 'block')
       .parent()
       .zoom()
-      .magnify(0.5);
+      .magnify('0.5');
   });
