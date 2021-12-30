@@ -51,6 +51,114 @@ body.path-frontpage main.main-content {
     padding-left: 20px;
 }
 
+.block-superfish {
+    width: 33%;
+    margin-left: 66px;
+}
+
+.block-superfish .sf-menu a {
+    color: #fff;
+    padding: 0px;
+    padding-bottom: 0px;
+    font-family: 'Jost-Regular';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 41px;
+    position: relative;
+    padding-bottom: 3px;
+    margin-top: 3px;
+}
+
+.block-superfish .sf-menu a:hover,
+.block-superfish .sf-menu a:active {
+    border-bottom: #fff;
+}
+
+.block-superfish .sf-menu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    will-change: transform;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+
+.block-superfish .sf-menu a:hover::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.block-superfish .sf-menu li:nth-of-type(1) a::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.block-superfish ul.sf-menu ul {
+    min-width: 230px;
+    transition: transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, opacity cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, visibility cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, -webkit-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s;
+    transform: translateY(5px);
+    border-radius: 0 0 10px 10px !important;
+    box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.01) !important;
+}
+
+.block-superfish ul.sf-menu ul li {
+    width: 100%;
+    padding: 15px 30px 15px 30px !important;
+}
+
+.block-superfish ul.sf-menu ul li a {
+    color: #1F2F43CC !important;
+    transition: all 0.1s ease-out;
+}
+
+.block-superfish ul.sf-menu .sf-sub-indicator::after {
+    display: none;
+}
+
+.block-superfish .sf-menu li:nth-of-type(1) a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    will-change: transform;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+
 #block-mainmenu ul.nav li a {
     color: #fff;
     padding: 0px;
@@ -873,7 +981,8 @@ ul.top-pick-for-you-slider {
 }
 
 .block-system-main-block .field--name-price {
-    padding-top: 75px;
+    /* padding-top: 75px; */
+    padding-top: 12px;
 }
 
 .fieldset-wrapper .field--name-field-categoies {
@@ -1126,68 +1235,6 @@ ul.top-pick-for-you-slider {
 
 #block-leatheristalogofooter p:nth-of-type(2) {
     padding-top: 1px;
-}
-
-#block-mainmenu ul.nav li a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: currentColor;
-    will-change: transform;
-    -webkit-transform: scaleX(0);
-    -ms-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: right center;
-    -ms-transform-origin: right center;
-    transform-origin: right center;
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    -o-transition: transform .3s;
-    transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s;
-}
-
-#block-mainmenu ul.nav li a:hover::after {
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transform-origin: left center;
-    -ms-transform-origin: left center;
-    transform-origin: left center;
-}
-
-#block-mainmenu ul.nav li:nth-of-type(1) a::after {
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transform-origin: left center;
-    -ms-transform-origin: left center;
-    transform-origin: left center;
-}
-
-#block-mainmenu ul.nav li:nth-of-type(1) a:hover::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: currentColor;
-    will-change: transform;
-    -webkit-transform: scaleX(0);
-    -ms-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: right center;
-    -ms-transform-origin: right center;
-    transform-origin: right center;
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    -o-transition: transform .3s;
-    transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s;
 }
 
 .view-top-picks-for-you .header {
@@ -1554,6 +1601,25 @@ ul.top-pick-for-you-slider {
     padding-bottom: 5px;
 }
 
+.view-shop .view-content.row .views-row {
+    width: 95%;
+    position: relative;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.view-top-picks-for-you .view-header h2 {
+    color: #7A7A7A;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: "lato-regular";
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* home page styling start */
     .front-categoies-section .view-front-categoies-views .view-content .views-row {
@@ -1641,6 +1707,16 @@ ul.top-pick-for-you-slider {
     }
     .block-page-title-block {
         padding: 4.16667rem 15px;
+    }
+    .view-shop .view-content.row .views-row {
+        width: 90%;
+        position: relative;
+        border: 1px solid #eee;
+        margin: 8px auto;
+        padding-bottom: 15px;
+    }
+    .contact-us-from-section form {
+        padding-bottom: 0;
     }
 }
 
