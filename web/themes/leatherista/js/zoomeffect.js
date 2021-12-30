@@ -3,5 +3,5 @@ jQuery(document).ready(function(){
       .wrap('<span style="display:inline-block"></span>')
       .css('display', 'block')
       .parent()
-      .zoom(magnify=0.5);
+      .zoom({magnify:1});
   });
