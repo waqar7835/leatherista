@@ -1625,6 +1625,18 @@ ul.top-pick-for-you-slider {
     ul#superfish-main--accordion.sf-menu .sf-sub-indicator {
         width: 0px;
     }
+    ul.sf-menu.sf-accordion:nth-of-type(1)>li:nth-of-type(3)>a::before {
+        content: '_';
+        font-size: 25px;
+        top: -15px;
+    }
+    ul.sf-menu.sf-accordion:nth-of-type(1)>li:nth-of-type(3)>a::before {
+        content: '+';
+        right: 0;
+        position: absolute;
+        font-size: 25px;
+        top: -5px;
+    }
     #superfish-main--accordion>li.sf-expanded:nth-of-type(3) a.sf-depth-1::before {
         content: '_';
         font-size: 25px;
