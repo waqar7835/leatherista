@@ -1515,6 +1515,45 @@ ul.top-pick-for-you-slider {
     padding: 0;
 }
 
+.path-blog {
+    padding: 0;
+}
+
+#block-contactusformpagetext .field--type-text-with-summary {
+    text-align: center;
+    padding-top: 118px;
+}
+
+#block-contactusformpagetext .field--type-text-with-summary h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    margin-bottom: 1rem;
+    display: inline !important;
+    background-color: #9bbbbf;
+    padding: 2px 4px 3px 6px;
+    border-radius: 4px;
+    color: #fff !important;
+}
+
+#block-contactusformpagetext .field--type-text-with-summary h2 {
+    color: #7A7A7A;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: "lato-regular";
+    margin-top: 5px;
+}
+
+#block-contactusformpagetext .field--type-text-with-summary p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(85 90 96 / 70%);
+    font-family: "lato-regular";
+    padding-bottom: 5px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* home page styling start */
     .front-categoies-section .view-front-categoies-views .view-content .views-row {
@@ -1599,6 +1638,9 @@ ul.top-pick-for-you-slider {
     }
     .fontyourface .main-content section.section {
         overflow: hidden;
+    }
+    .block-page-title-block {
+        padding: 4.16667rem 15px;
     }
 }
 
