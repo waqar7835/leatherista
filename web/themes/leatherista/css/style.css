@@ -129,7 +129,7 @@ body.path-frontpage main.main-content {
     padding: 15px 30px 15px 30px !important;
 }
 
-.block-superfish ul.sf-menu ul li a {
+.block-superfish ul.sf-menu ul li.sf-depth-1 a {
     color: #1F2F43CC !important;
     transition: all 0.1s ease-out;
 }
