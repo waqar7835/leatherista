@@ -1729,7 +1729,7 @@ ul.top-pick-for-you-slider {
         width: 100%;
     }
     .node--type-blogs .layout-main-wrapper .container-fluid>.row .field--type-image {
-        text-align: center;
+        /* text-align: center; */
         margin-top: 30px;
     }
     .node--type-blogs .sidebar_second {
