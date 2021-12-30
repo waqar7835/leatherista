@@ -1019,6 +1019,7 @@ ul.top-pick-for-you-slider {
 
 .node--type-blogs .layout-main-wrapper .container-fluid>.row .field--type-image {
     float: none;
+    padding-top: 94px;
 }
 
 .node--type-blogs .field--type-entity-reference>.field__items {
