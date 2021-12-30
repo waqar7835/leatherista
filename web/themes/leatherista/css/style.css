@@ -1619,7 +1619,7 @@ ul.top-pick-for-you-slider {
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
-    ul.sf-menu .sf-sub-indicator {
+    .block-superfish .sf-menu a ul.sf-menu .sf-sub-indicator {
         display: none !important;
     }
     #superfish-main--accordion li.sf-expanded a::after {
