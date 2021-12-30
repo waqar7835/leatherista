@@ -70,12 +70,12 @@ body.path-frontpage main.main-content {
     margin-top: 3px;
 }
 
-.block-superfish .sf-menu a:hover,
+.block-superfish .sf-menu li.sf-depth-1 a:hover,
 .block-superfish .sf-menu a:active {
     border-bottom: #fff;
 }
 
-.block-superfish .sf-menu a::after {
+.block-superfish .sf-menu li.sf-depth-1 a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -97,7 +97,7 @@ body.path-frontpage main.main-content {
     transition: transform .3s, -webkit-transform .3s;
 }
 
-.block-superfish .sf-menu a:hover::after {
+.block-superfish .sf-menu li.sf-depth-1 a:hover::after {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -106,7 +106,7 @@ body.path-frontpage main.main-content {
     transform-origin: left center;
 }
 
-.block-superfish .sf-menu li:nth-of-type(1) a::after {
+.block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) a::after {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
