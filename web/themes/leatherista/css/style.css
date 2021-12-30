@@ -985,9 +985,9 @@ ul.top-pick-for-you-slider {
     top: 75px;
 }
 
-.block-system-main-block .field--name-price {
-    /* padding-top: 75px; */
-    padding-top: 12px;
+.path-product .block-system-main-block .field--name-price {
+    padding-top: 75px;
+    /* padding-top: 12px; */
 }
 
 .fieldset-wrapper .field--name-field-categoies {
@@ -1537,7 +1537,7 @@ ul.top-pick-for-you-slider {
 }
 
 .path-product .block-page-title-block .field--name-title {
-    left: 64%;
+    left: 55.8%;
     top: 0px;
 }
 
