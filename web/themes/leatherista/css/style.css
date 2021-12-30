@@ -1626,6 +1626,7 @@ ul.top-pick-for-you-slider {
         background-image: url('../images/menu-responsive.png');
         width: 52px;
         height: 37px;
+        display: block;
     }
     .view-shop .view-content.row .views-row {
         width: 95%;
