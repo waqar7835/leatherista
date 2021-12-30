@@ -1617,6 +1617,16 @@ ul.top-pick-for-you-slider {
     margin-bottom: 15px;
 }
 
+.block-superfish span {
+    font-size: 0px;
+}
+
+.block-superfish span {
+    background-image: url('../images/menu-responsive.png');
+    width: 52px;
+    height: 37px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* home page styling start */
     .view-shop .view-content.row .views-row {
@@ -1732,6 +1742,7 @@ ul.top-pick-for-you-slider {
     .node--type-blogs .layout-main-wrapper .container-fluid>.row .field--type-image {
         /* text-align: center; */
         margin-top: 30px;
+        padding-top: 0px;
     }
     .node--type-blogs .sidebar_second {
         width: 100%;
