@@ -1505,7 +1505,7 @@ ul.top-pick-for-you-slider {
     color: #000;
 }
 
-.node--type-blogs .field--type-entity-reference .field__label::before {
+.node--type-blogs .field--type-entity-reference .field__items::before {
     content: '';
     background-image: url('../images/msg-box.png');
     width: 28px;
@@ -1513,6 +1513,10 @@ ul.top-pick-for-you-slider {
     position: absolute;
     left: 0px;
     top: -5px;
+}
+.node--type-blogs .field--type-entity-reference .field__item a{
+    text-decoration: none;
+    color: #3b3b3b;
 }
 
 .node--type-blogs .datetime::before {
