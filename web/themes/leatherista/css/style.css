@@ -1022,7 +1022,7 @@ ul.top-pick-for-you-slider {
     padding-top: 94px;
 }
 
-.node--type-blogs .field--type-entity-reference>.field__items {
+.node--type-blogs .field--type-entity-reference>.field__label {
     display: none;
 }
 
@@ -1034,7 +1034,7 @@ ul.top-pick-for-you-slider {
     display: none;
 }
 
-.node--type-blogs .field--type-entity-reference .field__label {
+.node--type-blogs .field--type-entity-reference .field__item {
     font-size: 12px;
     font-weight: 400;
     line-height: 21px;

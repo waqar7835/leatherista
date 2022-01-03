@@ -3,5 +3,6 @@ jQuery(document).ready(function(){
       .wrap('<span style="display:inline-block"></span>')
       .css('display', 'block')
       .parent()
-      .zoom({magnify:1});
+      .zoom({magnify:1})
+      .css('background-color', 'white');
   });
