@@ -890,7 +890,7 @@ ul.top-pick-for-you-slider {
     margin-bottom: 5.33333rem;
     margin-right: 80px;
 }
-#block-leatherista-content .field--name-field-images img{
+#block-leatherista-content .field--name-field-images .image-style-product-detail-image-style{
     width: 522.5px;
     height: 377.9333px;
 }
