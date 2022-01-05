@@ -887,19 +887,19 @@ ul.top-pick-for-you-slider {
 
 #block-leatherista-content .field--name-field-images {
     float: left;
-    width: 522.5px;
-    height: 377.9333px;
     margin-bottom: 5.33333rem;
     margin-right: 80px;
 }
-
+#block-leatherista-content .field--name-field-images img{
+    width: 522.5px;
+    height: 377.9333px;
+}
 .block-system-main-block .field--type-commerce-price .field__item {
     color: #9bbbbf !important;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 22px;
 }
-
 .path-product article form input {
     font-family: "Lato-Bold", sans-serif !important;
     line-height: 1 !important;
