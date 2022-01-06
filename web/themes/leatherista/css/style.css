@@ -1630,7 +1630,7 @@ ul.top-pick-for-you-slider {
     }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
     width: 80px;
-    font-size: 18px;
+    font-size: 14px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-prod-title{
     color: #fff;
@@ -1650,7 +1650,7 @@ ul.top-pick-for-you-slider {
     /* visibility: hidden;
     background-image: */
 }
-#commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price #edit-actions{
+#commerce-cart-pop-block .view-commerce-cart-block #edit-actions{
     display: none;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer{
