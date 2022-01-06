@@ -101,7 +101,7 @@ body.path-frontpage main.main-content {
     transition: transform .3s, -webkit-transform .3s;
 }
 
-.block-superfish .sf-menu li.sf-depth-1 a:hover::after {
+.block-superfish .sf-menu li.sf-depth-1 a:hover::after,.block-superfish .sf-menu li.sf-depth-1 a.is-active {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -110,14 +110,14 @@ body.path-frontpage main.main-content {
     transform-origin: left center;
 }
 
-.block-superfish .sf-menu li.sf-depth-1 a.is-active {
+ /* {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transform-origin: left center;
     -ms-transform-origin: left center;
     transform-origin: left center;
-}
+} */
 
 .block-superfish ul.sf-menu ul {
     min-width: 230px;
