@@ -110,7 +110,7 @@ body.path-frontpage main.main-content {
     transform-origin: left center;
 }
 
-.block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) a::after {
+.block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) a.is-active {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -720,7 +720,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-shop .view-content.row .views-row {
-    width: 23%;
+    width: 23.4%;
     margin-bottom: 20px;
     position: relative;
     border: 1px solid #eee;
@@ -967,6 +967,7 @@ ul.top-pick-for-you-slider {
     position: relative;
     padding: 118px 0 124px 0px;
     background-color: #ecf1f4;
+    margin: 0 -12px;
 }
 
 .block-page-title-block .field--name-title {
