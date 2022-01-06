@@ -1613,6 +1613,19 @@ ul.top-pick-for-you-slider {
 #views-form-commerce-cart-form-default-6 .views-field-purchased-entity .field--name-price{
     display: none;
 }
+#commerce-cart-pop-block{
+    background-color: #181818;
+}
+#commerce-cart-pop-block .view-commerce-cart-block{
+    padding: 20px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .views-row{
+    margin-bottom: 28px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .views-row .views-field{
+    width: auto;
+    display: inline-block;
+}
 #commerce-cart-pop-block .view-commerce-cart-block .field--name-price{
     display: none;
 }
