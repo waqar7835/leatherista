@@ -110,7 +110,7 @@ body.path-frontpage main.main-content {
     transform-origin: left center;
 }
 
-.block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) .is-active {
+.block-superfish .sf-menu li.sf-depth-1 a.is-active {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
