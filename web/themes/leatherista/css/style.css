@@ -1620,9 +1620,6 @@ ul.top-pick-for-you-slider {
 #commerce-cart-pop-block .view-commerce-cart-block{
     padding: 20px;
 }
-#commerce-cart-pop-block .view-commerce-cart-block .views-row{
-    margin-bottom: 28px;
-}
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block{
     display: flex;
     justify-content: space-between;
@@ -1656,8 +1653,10 @@ ul.top-pick-for-you-slider {
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer{
     color: #fff;
     font-size: 15px;
+    border-top: 1px solid;
+    padding-top: 20px;
 }
-#commerce-cart-pop-block .view-commerce-cart-block .pop-up-footer{
+#commerce-cart-pop-block .commerce-cart-pop-block__inners .pop-up-footer{
     margin: 20px;
     font-size: 20px;
 }
