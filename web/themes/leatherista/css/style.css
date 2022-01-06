@@ -1650,6 +1650,17 @@ ul.top-pick-for-you-slider {
     /* visibility: hidden;
     background-image: */
 }
+#commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price #edit-actions{
+    display: none;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .view-footer{
+    color: #fff;
+    font-size: 15px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .pop-up-footer{
+    margin: 20px;
+    font-size: 20px;
+}
 #commerce-cart-pop-block .view-commerce-cart-block .field--name-price{
     display: none;
 }
