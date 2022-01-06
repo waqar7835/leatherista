@@ -1613,6 +1613,9 @@ ul.top-pick-for-you-slider {
 #views-form-commerce-cart-form-default-6 .views-field-purchased-entity .field--name-price{
     display: none;
 }
+#commerce-cart-pop-block .view-commerce-cart-block .field--name-price{
+    display: none;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
