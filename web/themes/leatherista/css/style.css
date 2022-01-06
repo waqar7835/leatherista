@@ -1615,6 +1615,7 @@ ul.top-pick-for-you-slider {
 }
 #commerce-cart-pop-block{
     background-color: #181818;
+    width: 350px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block{
     padding: 20px;
@@ -1624,8 +1625,7 @@ ul.top-pick-for-you-slider {
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block{
     display: flex;
-    
-}
+    }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
     width: 80px;
     font-size: 18px;
