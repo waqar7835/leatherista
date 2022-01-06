@@ -885,7 +885,7 @@ ul.top-pick-for-you-slider {
     padding-top: 0;
 }
 
-#block-leatherista-content .field--name-field-images {
+#block-leatherista-content .field--name-field-images span{
     float: left;
     margin-bottom: 5.33333rem;
     margin-right: 80px;
@@ -1609,6 +1609,9 @@ ul.top-pick-for-you-slider {
     font-family: "lato-regular";
     margin-top: 5px;
     margin-bottom: 15px;
+}
+#views-form-commerce-cart-form-default-6 .views-field-purchased-entity .field--name-price{
+    display: none;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
