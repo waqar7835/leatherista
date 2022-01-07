@@ -197,6 +197,7 @@ body.path-frontpage main.main-content {
 } */
 #commerce-cart-pop-block{
     background-image: none !important;
+    padding-bottom: 10px !important;
 }
 
 .top-picks-for-you-section {
