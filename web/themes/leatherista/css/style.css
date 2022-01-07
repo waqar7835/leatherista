@@ -105,7 +105,7 @@ body.path-frontpage main.main-content {
     transition: transform .3s, -webkit-transform .3s;
 }
 
-.block-superfish .sf-menu li.sf-depth-1 a:hover::after, .block-superfish .sf-menu a.is-active{
+.block-superfish .sf-menu li.sf-depth-1 a:hover::after{
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
