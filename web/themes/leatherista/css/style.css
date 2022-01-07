@@ -77,7 +77,7 @@ body.path-frontpage main.main-content {
 /* .block-superfish .sf-menu li.sf-depth-1 a:hover{
     border-bottom: #fff;
 } */
-.block-superfish .sf-menu a.is-active:hover{
+.block-superfish .sf-menu a.is-active:hover::after{
     content: none;
 }
 .block-superfish .sf-menu a.is-active{
