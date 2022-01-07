@@ -80,7 +80,7 @@ body.path-frontpage main.main-content {
 .block-superfish .sf-menu a.is-active{
     border-bottom: #fff 2px solid;
 }
-.block-superfish .sf-menu a.is-active::after{
+.block-superfish .sf-menu a.is-active:hover{
     content: none;
 }
 .block-superfish .sf-menu li.sf-depth-1 a::after {
