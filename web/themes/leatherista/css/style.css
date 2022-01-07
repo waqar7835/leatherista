@@ -74,9 +74,9 @@ body.path-frontpage main.main-content {
     margin-top: 7px;
 }
 
-.block-superfish .sf-menu li.sf-depth-1 a:hover{
+/* .block-superfish .sf-menu li.sf-depth-1 a:hover{
     border-bottom: #fff;
-}
+} */
 .block-superfish .sf-menu a.is-active {
     border-bottom: #fff 2px solid;
 }
