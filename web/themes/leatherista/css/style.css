@@ -79,8 +79,13 @@ body.path-frontpage main.main-content {
     border-bottom: #fff;
 }
 .block-superfish .sf-menu a.is-active {
-    border-bottom: #fff 2px solid;
-}
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
 
 .block-superfish .sf-menu li.sf-depth-1 a::after {
     content: '';
