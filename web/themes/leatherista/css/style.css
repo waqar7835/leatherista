@@ -147,6 +147,13 @@ body.path-frontpage main.main-content {
 .block-superfish ul.sf-menu .sf-sub-indicator::after {
     display: none;
 }
+.block-superfish .sf-menu li.sf-depth-2 a:hover::after{
+    content: none;
+}
+.block-superfish .sf-menu li.sf-depth-2 a:hover{
+    color: #FED969;
+    padding-left: 24px;
+}
 
 /* .block-superfish .sf-menu li:nth-of-type(1)>a:hover::after {
     content: '';
