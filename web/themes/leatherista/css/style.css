@@ -195,6 +195,9 @@ body.path-frontpage main.main-content {
 #block-mainmenu ul.nav li a:hover {
     border-bottom: #fff;
 } */
+#commerce-cart-pop-block{
+    background: none !important;
+}
 
 .top-picks-for-you-section {
     padding: 13px 20px 50px 20px;
