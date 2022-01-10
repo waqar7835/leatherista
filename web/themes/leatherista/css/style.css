@@ -1095,10 +1095,6 @@ ul.top-pick-for-you-slider {
     width: 50%;
 }
 
-.node--type-blogs .field--type-string {
-    display: none;
-}
-
 .node--type-blogs .sidebar .block {
     background-color: #fff;
     border: 1px solid #f6f6f6;
@@ -1491,10 +1487,6 @@ ul.top-pick-for-you-slider {
     width: 36px;
     height: 34px;
     right: 5px;
-}
-
-.node--type-blogs .block-page-title-block {
-    display: none;
 }
 
 .node--type-blogs .sidebar .block ul {
