@@ -19,32 +19,40 @@
  * @ingroup themeable
  */
 #}
-<div class="block-system-main-block">
-  <article{{ attributes }}>
-    {# {{- product|without('variation_attributes') -}} #}
-    <div class="views-row">
-      <div class="views-field views-field-field-images">
-        <div class="field-content">
-          {{ product.field_images }}
-        </div>
-      </div>
+<div class="top-picks-for-you-section">
+  <div class="view-top-picks-for-you">
+    <ul class="top-pick-for-you-slider">
+      <div class="slick-slide">
+        <li>
+          <article{{ attributes }}>
+            {# {{- product|without('variation_attributes') -}} #}
+            <div class="views-row">
+              <div class="views-field views-field-field-images">
+                <div class="field-content">
+                  {{ product.field_images }}
+                </div>
+              </div>
 
-      <div class="views-field views-field-title">
-        <span class="field-content">
-          {{ product.title }}
-        </span>
-      </div>
+              <div class="views-field views-field-title">
+                <span class="field-content">
+                  {{ product.title }}
+                </span>
+              </div>
 
-      <div class="views-field views-field-price__number">
-        <span class="field-content">
-          {{ product.variation_price }}
-        </span>
+              <div class="views-field views-field-price__number">
+                <span class="field-content">
+                  {{ product.variation_price }}
+                </span>
+              </div>
+              <div class="views-field views-field-variations-target-id">
+                <span class="field-content">
+                  {{ product.variations }}
+                </span>
+              </div>
+            </div>
+          </article>
+        </li>
       </div>
-      <div class="views-field views-field-variations-target-id">
-        <span class="field-content">
-          {{ product.variations }}
-        </span>
-      </div>
-    </div>
-  </article>
+    </ul>
+  </div>
 </div>
