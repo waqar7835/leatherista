@@ -991,8 +991,9 @@ ul.top-pick-for-you-slider {
     left: 52%;
     top: 75px;
 }
-.node--type-blogs .field--name-title{
-    padding: 10px;
+.node--type-blogs #block-leatherista-page-title{
+    padding: 0px;
+    background-color: #fff;
 }
 
 .path-product .block-system-main-block .field--name-price {
