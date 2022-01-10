@@ -20,7 +20,7 @@
  */
 #}
 <div class="block-system-main-block">
-  <article>
+  <article{{ attributes }}>
     {# {{- product|without('variation_attributes') -}} #}
     <div class="views-row">
       <div class="views-field views-field-field-images">
@@ -37,14 +37,12 @@
 
       <div class="views-field views-field-price__number">
         <span class="field-content">
-          {{ product.price__number }}
-          {{ product.price__number__number }}
-          {{ product.price__number__currency_code }}
+          {{ product.variation_price }}
         </span>
       </div>
       <div class="views-field views-field-variations-target-id">
         <span class="field-content">
-          {{ product.variations_target_id }}
+          {{ product.variations }}
         </span>
       </div>
     </div>
