@@ -19,6 +19,30 @@
  * @ingroup themeable
  */
 #}
-<article{{ attributes }}>
-  {{- product|without('variation_attributes') -}}
-</article>
+<div class="block-system-main-block">
+  <article{{ attributes }}>
+    {# {{- product|without('variation_attributes') -}} #}
+    <div class="views-row">
+      <div class="views-field views-field-field-images">
+        <div class="field-content">
+          {{ field_images }}
+        </div>
+      </div>
+
+      <div class="views-field views-field-title">
+        <span class="field-content"></span>
+      </div>
+
+      <div class="views-field views-field-variations-target-id">
+        <span class="field-content">
+          
+        </span>
+      </div>
+      <div class="views-field views-field-variations-target-id-1">
+        <span class="field-content">
+          
+        </span>
+      </div>
+    </div>
+  </article>
+</div>
