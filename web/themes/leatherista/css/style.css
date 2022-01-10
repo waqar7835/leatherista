@@ -998,10 +998,6 @@ ul.top-pick-for-you-slider {
     font-family: 'lato-regular';
     margin: 0px;
 }
-.node--type-blogs .section{
-    display: flex;
-    flex-direction: column-reverse;
-}
 .path-product .block-system-main-block .field--name-price {
     padding-top: 75px;
     /* padding-top: 12px; */
