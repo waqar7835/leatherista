@@ -991,9 +991,11 @@ ul.top-pick-for-you-slider {
     left: 52%;
     top: 75px;
 }
-.node--type-blogs #block-leatherista-page-title{
+.node--type-blogs #block-pagetitle{
     padding: 0px;
     background-color: #fff;
+    color: #555a60;
+    font-family: 'lato-regular';
 }
 
 .path-product .block-system-main-block .field--name-price {
@@ -1071,13 +1073,7 @@ ul.top-pick-for-you-slider {
 }
 
 .node--type-blogs .field--name-body p:nth-of-type(1) {
-    text-align: left;
-    line-height: 38px;
-    font-size: 27px;
-    font-weight: 400;
-    color: #555a60;
-    font-family: 'lato-regular';
-    margin-top: 50px;
+    margin-top: 22px;
 }
 
 .node--type-blogs .field--name-body p {
