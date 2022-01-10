@@ -992,12 +992,16 @@ ul.top-pick-for-you-slider {
     top: 75px;
 }
 .node--type-blogs #block-pagetitle{
-    padding: 0px;
+    padding: 20px;
     background-color: #fff;
     color: #555a60;
     font-family: 'lato-regular';
+    margin: 0px;
 }
-
+.node--type-blogs .section{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .path-product .block-system-main-block .field--name-price {
     padding-top: 75px;
     /* padding-top: 12px; */
@@ -1032,7 +1036,7 @@ ul.top-pick-for-you-slider {
 
 .node--type-blogs .layout-main-wrapper .container-fluid>.row .field--type-image {
     float: none;
-    padding-top: 94px;
+    padding-top:0px;
 }
 
 .node--type-blogs .field--type-entity-reference>.field__label {
