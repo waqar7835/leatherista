@@ -992,7 +992,7 @@ ul.top-pick-for-you-slider {
     top: 75px;
 }
 .node--type-blogs #block-pagetitle{
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #fff;
     color: #555a60;
     font-family: 'lato-regular';
