@@ -594,6 +594,7 @@ ul.top-pick-for-you-slider {
 
 .latest-initiatives-data .titlebody a {
     font-size: 20px;
+    font-weight: 500;
     color: #555a60;
     text-decoration: none;
 }
