@@ -19,40 +19,43 @@
  * @ingroup themeable
  */
 #}
-<div class="top-picks-for-you-section">
-  <div class="view-top-picks-for-you">
-    <ul class="top-pick-for-you-slider">
-      <div class="slick-slide">
+<div class="views-element-container top-picks-for-you-section">
+  <div class="view-top-picks-for-you view-id-top_picks_for_you">
+    <div class="view-header">
+      <h2>Related Products</h2>
+    </div>
+    <div class="view-content row">
+      <ul class="top-pick-for-you-slider">
         <li>
           <article{{ attributes }}>
-            {# {{- product|without('variation_attributes') -}} #}
-            <div class="views-row">
-              <div class="views-field views-field-field-images">
-                <div class="field-content">
-                  {{ product.field_images }}
+              {# {{- product|without('variation_attributes') -}} #}
+              <div class="views-row">
+                <div class="views-field views-field-field-images">
+                  <div class="field-content">
+                    {{ product.field_images }}
+                  </div>
+                </div>
+
+                <div class="views-field views-field-title">
+                  <span class="field-content">
+                    {{ product.title }}
+                  </span>
+                </div>
+
+                <div class="views-field views-field-price__number">
+                  <span class="field-content">
+                    {{ product.variation_price }}
+                  </span>
+                </div>
+                <div class="views-field views-field-variations-target-id">
+                  <span class="field-content">
+                    {{ product.variations }}
+                  </span>
                 </div>
               </div>
-
-              <div class="views-field views-field-title">
-                <span class="field-content">
-                  {{ product.title }}
-                </span>
-              </div>
-
-              <div class="views-field views-field-price__number">
-                <span class="field-content">
-                  {{ product.variation_price }}
-                </span>
-              </div>
-              <div class="views-field views-field-variations-target-id">
-                <span class="field-content">
-                  {{ product.variations }}
-                </span>
-              </div>
-            </div>
-          </article>
-        </li>
-      </div>
-    </ul>
+            </article>
+        </li>  
+      </ul>
+    </div>  
   </div>
 </div>
