@@ -1692,6 +1692,15 @@ ul.top-pick-for-you-slider {
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li{
     width: 255px;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li:hover .field--name-field-images{
+    background-color: rgb(155 187 191 / 50%);
+    border-radius: 0px 0px 35px 35px;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-field-images .field__item{
+    padding: 0 15px;
+    height: 222px;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
