@@ -1686,6 +1686,9 @@ ul.top-pick-for-you-slider {
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view .row{
     width: 100%;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group{
+    flex-direction: row !important;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
