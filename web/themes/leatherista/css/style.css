@@ -1538,7 +1538,11 @@ ul.top-pick-for-you-slider {
     width: 703px;
     float: right;
 }
-
+.path-product .block-page-title-block h1{
+    font-size: 2.83333rem;
+    font-weight: 400;
+    color: #555a60;
+}
 .path-product .block-system-main-block {
     margin-top: 80px;
 }
@@ -1685,6 +1689,12 @@ ul.top-pick-for-you-slider {
     width: 1140px;
     max-width: 100%;
     margin: 0 auto;
+    clear: both;
+}
+#block-views-block-related-product-test-view-block-1 h2{
+    color: #555a60;
+    font-size: 2rem;
+    font-weight: 400;
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view .row{
     width: 100%;
@@ -1697,6 +1707,7 @@ ul.top-pick-for-you-slider {
     margin: 0px 10px;
     padding: 0px;
     text-align: center;
+    border-top-width: 1px;
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li article{
     display: flex;
@@ -1728,6 +1739,7 @@ ul.top-pick-for-you-slider {
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations{
     order:4;
     visibility: hidden;
+    margin: 0px !important;
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li:hover .field--name-variations{
     visibility: visible;
