@@ -1691,8 +1691,11 @@ ul.top-pick-for-you-slider {
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li{
     width: 255px;
+    margin: 0px 10px;
+    padding: 0px;
+    text-align: center;
 }
-#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li:hover .field--name-field-images{
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li:hover .field--name-field-images img{
     background-color: rgb(155 187 191 / 50%);
     border-radius: 0px 0px 35px 35px;
 }
@@ -1726,6 +1729,28 @@ ul.top-pick-for-you-slider {
     position: relative;
     z-index: 999;
     font-size: 25px;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations form.commerce-order-item-add-to-cart-form input.js-form-submit{
+    font-family: "Lato-Bold", sans-serif;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08333rem !important;
+    cursor: pointer !important;
+    border-radius: 0 !important;
+    border: 1px solid transparent !important;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    box-shadow: none !important;
+    transition: background-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, border-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s !important;
+    width: 164px;
+    height: 53px;
+    color: #ffffff !important;
+    border-color: #181818 !important;
+    background-color: #181818 !important;
+    font-size: 13px;
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title a{
     color: #555a60;
