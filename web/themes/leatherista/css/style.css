@@ -1763,6 +1763,10 @@ ul.top-pick-for-you-slider {
     top: 174px;
     height: 42px !important;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations form.commerce-order-item-add-to-cart-form input.js-form-submit::after{
+    content: '+';
+    font-size: 12px;
+}
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title a{
     color: #555a60;
     font-size: 20px;
