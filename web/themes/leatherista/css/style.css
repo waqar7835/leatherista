@@ -1716,6 +1716,9 @@ ul.top-pick-for-you-slider {
     color: #9BBBC1!important;
     font-weight: 600;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-price .field__label{
+    display: none;
+}
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title{
     order: 2;
 }
@@ -1741,19 +1744,35 @@ ul.top-pick-for-you-slider {
     letter-spacing: 0.08333rem !important;
     cursor: pointer !important;
     border-radius: 0 !important;
-    border: 1px solid transparent !important;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    box-shadow: none !important;
-    transition: background-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, border-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s, color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s !important;
-    width: 164px;
-    height: 53px;
-    color: #ffffff !important;
-    border-color: #181818 !important;
-    background-color: #181818 !important;
-    font-size: 13px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 0 !important;
+    display: inline-block;
+    float: left;
+    height: 42px !important;
+    width: 42px !important;
+    line-height: 42px !important;
+    border: none !important;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    font-weight: normal !important;
+    text-align: center;
+    padding: 0 !important;
+    transition: 0.2s ease !important;
+    z-index: 3;
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 14%) !important;
+    position: absolute;
+    top: 181px;
+    left: 0;
+    right: 0;
+    margin: 0 auto !important;
+    background: #fff !important;
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s ease !important;
 }
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations form.commerce-order-item-add-to-cart-form input.js-form-submit:hover{
     border-color: #333333 !important;
