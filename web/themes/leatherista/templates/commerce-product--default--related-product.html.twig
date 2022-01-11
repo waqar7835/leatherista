@@ -19,7 +19,9 @@
  * @ingroup themeable
  */
 #}
-<div class="views-element-container top-picks-for-you-section">
+
+            <article{{ attributes }}>
+            <div class="views-element-container top-picks-for-you-section">
   <div class="view-top-picks-for-you view-id-top_picks_for_you">
     <div class="view-header">
       <h2>Related Products</h2>
@@ -28,7 +30,6 @@
       <ul class="top-pick-for-you-slider">
         <div class="slick-slide">
           <li>
-            <article{{ attributes }}>
                 {# {{- product|without('variation_attributes') -}} #}
                   <div class="views-field views-field-field-images">
                     <div class="field-content">
@@ -52,10 +53,11 @@
                       {{ product.variations }}
                     </span>
                   </div>
-              </article>
+             
           </li>
         </div> 
       </ul>
     </div>  
   </div>
 </div>
+ </article>
