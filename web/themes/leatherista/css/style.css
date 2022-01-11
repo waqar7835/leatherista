@@ -1700,6 +1700,39 @@ ul.top-pick-for-you-slider {
     padding: 0 15px;
     height: 222px;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li article{
+    display: flex;
+    flex-direction: column;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-price{
+    order: 3;
+    font-size: 18px;
+    color: #9BBBC1!important;
+    font-weight: 600;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title{
+    order: 2;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations{
+    order:4;
+    visibility: hidden;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li:hover .field--name-variations{
+    visibility: visible;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations::after{
+    content: '+';
+    top: -114px;
+    position: relative;
+    z-index: 999;
+    font-size: 25px;
+}
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title a{
+    color: #555a60;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
