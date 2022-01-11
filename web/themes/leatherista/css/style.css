@@ -1752,6 +1752,14 @@ ul.top-pick-for-you-slider {
     background-color: #181818 !important;
     font-size: 13px;
 }
+#block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-variations form.commerce-order-item-add-to-cart-form input.js-form-submit:hover{
+    border-color: #333333 !important;
+    color: #ffffff !important;
+    background-color: #9bbbbf !important;
+    transform: scale(1.3);
+    top: 174px;
+    height: 42px !important;
+}
 #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li .field--name-title a{
     color: #555a60;
     font-size: 20px;
