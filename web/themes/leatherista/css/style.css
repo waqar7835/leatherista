@@ -1664,6 +1664,14 @@ ul.top-pick-for-you-slider {
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button{
     padding-top: 9px;
+    width: 40px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button input.delete-order-item{
+    cursor: pointer !important;
+    width: 30px !important;
+    line-height: 34px !important;
+    padding: 0 !important;
+    background-color: #fff;
 }
 #commerce-cart-pop-block .view-commerce-cart-block #edit-actions{
     display: none;
@@ -1809,6 +1817,7 @@ ul.top-pick-for-you-slider {
 }
 
 
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
     .block-superfish ul.sf-menu ul li>a::after .block-superfish ul.sf-menu ul li>a {}
@@ -1822,9 +1831,9 @@ ul.top-pick-for-you-slider {
     #superfish-main--accordion .sf-no-children {
         padding: 10px 8px;
     }
-    .block-superfish {
+    /* .block-superfish {
         width: 45%;
-    }
+    } */
     .block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) a::after {
         width: 0px !important;
     }
@@ -1873,7 +1882,7 @@ ul.top-pick-for-you-slider {
     .block-superfish .sf-accordion-toggle.sf-style-none {
         margin-top: 0px;
         position: absolute;
-        top: 50px;
+        top: 35px;
         z-index: 999999;
     }
     /* menu closed */
@@ -2025,6 +2034,12 @@ ul.top-pick-for-you-slider {
         float: none;
         margin-bottom: 10px;
     }
+    .front-belts-icons-banner .field--name-body img{
+        height: auto;
+    }
+    #block-frontmainbanner .field--name-body img{
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {}
@@ -2043,5 +2058,11 @@ ul.top-pick-for-you-slider {
     .front-categoies-section .view-front-categoies-views .view-content .views-row {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .front-belts-icons-banner .field--name-body img{
+        height: auto;
+    }
+    #block-frontmainbanner .field--name-body img{
+        height: auto;
     }
 }
