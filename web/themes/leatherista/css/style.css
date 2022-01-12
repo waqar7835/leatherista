@@ -2079,9 +2079,10 @@ ul.top-pick-for-you-slider {
     #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li{
         width: 80%;
     }
-    .view-testimonials-front-view ul{
+    .view-testimonials-front-view ul li{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -2167,9 +2168,10 @@ ul.top-pick-for-you-slider {
         font-size: 25px;
         top: -5px;
     }
-    .view-testimonials-front-view ul{
+    .view-testimonials-front-view ul li{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
 
