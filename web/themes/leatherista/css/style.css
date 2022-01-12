@@ -2080,7 +2080,7 @@ ul.top-pick-for-you-slider {
         width: 80%;
     }
     .view-testimonials-front-view ul li{
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         justify-content: center;
     }
@@ -2169,7 +2169,7 @@ ul.top-pick-for-you-slider {
         top: -5px;
     }
     .view-testimonials-front-view ul li{
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         justify-content: center;
     }
