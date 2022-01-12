@@ -2124,6 +2124,10 @@ ul.top-pick-for-you-slider {
         width: 170px;
         background: #fff;
         padding: 10px 10px;
+    }
+    #superfish-main--accordion .sf-no-children {
+        padding: 10px 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
