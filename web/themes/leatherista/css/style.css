@@ -1674,7 +1674,7 @@ ul.top-pick-for-you-slider {
     background-color: #fff;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button::after{
-    content: '*';
+    content: '\f00d';
     top: -26px;
     position: relative;
     z-index: 999;
