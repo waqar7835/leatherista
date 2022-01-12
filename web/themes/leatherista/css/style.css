@@ -1821,7 +1821,12 @@ ul.top-pick-for-you-slider {
     text-decoration: none;
     text-transform: capitalize;
 }
-
+#block-views-block-testimonials-front-view-block-1 .views-field-field-author-image img{
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -2046,9 +2051,30 @@ ul.top-pick-for-you-slider {
     #block-frontmainbanner .field--name-body img{
         height: auto;
     }
+    .view-testimonials-front-view .view-header{
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+    .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name{
+        width: 94%;
+        clear: both;
+        text-align: center;
+    }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .view-testimonials-front-view .view-header{
+        padding-bottom: 25px
+    }
+    .testimonials-front-view-section{
+        padding: 25px 0px;
+}
+.testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name{
+    width: 94%;
+    clear: both;
+    text-align: center;
+}
+}
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
     /* home page styling start */
