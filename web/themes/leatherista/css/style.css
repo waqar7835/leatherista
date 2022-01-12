@@ -2079,6 +2079,10 @@ ul.top-pick-for-you-slider {
     #block-views-block-related-product-test-view-block-1 .view-related-product-test-view ul.list-group li{
         width: 80%;
     }
+    .view-testimonials-front-view ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2088,6 +2092,7 @@ ul.top-pick-for-you-slider {
     .testimonials-front-view-section{
         padding: 25px 0px;
     }
+    .view-testimonials-front-view ul
     .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name{
         width: 94%;
         clear: both;
@@ -2161,6 +2166,10 @@ ul.top-pick-for-you-slider {
         position: absolute;
         font-size: 25px;
         top: -5px;
+    }
+    .view-testimonials-front-view ul{
+        display: flex;
+        flex-direction: column;
     }
 }
 
