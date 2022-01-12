@@ -910,7 +910,8 @@ ul.top-pick-for-you-slider {
 }
 #block-leatherista-content .field--name-field-images .image-style-product-detail-image-style{
     width: 522.5px;
-    height: 377.9333px;
+    max-width: 100%;
+    height: auto;
 }
 .block-system-main-block .field--type-commerce-price .field__item {
     color: #9bbbbf !important;
@@ -1932,7 +1933,7 @@ ul.top-pick-for-you-slider {
     }
     .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-image {
         float: none;
-        width: auto;
+        width: 28%;
         padding-left: 0;
         margin: 0 auto;
         text-align: center;
@@ -1997,9 +1998,10 @@ ul.top-pick-for-you-slider {
     }
     .fontyourface .main-content section.section {
         overflow: hidden;
+        margin: 0px -12px;
     }
     .block-page-title-block {
-        padding: 4.16667rem 15px;
+        padding: 4.16667rem 20px;
     }
     .view-shop .view-content.row .views-row {
         width: 90%;
@@ -2060,6 +2062,18 @@ ul.top-pick-for-you-slider {
         clear: both;
         text-align: center;
     }
+    #block-leatherista-content .field--name-field-images span{
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .path-product .block-system-main-block article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fieldset-wrapper .field--name-field-categoies{
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2074,9 +2088,17 @@ ul.top-pick-for-you-slider {
     clear: both;
     text-align: center;
 }
+.path-product .block-system-main-block article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fieldset-wrapper .field--name-field-categoies{
+    justify-content: center;
+}
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* home page styling start */
     .block-system-main-block {
         padding-top: 2.333rem;
@@ -2097,4 +2119,20 @@ ul.top-pick-for-you-slider {
     #block-frontmainbanner .field--name-body img{
         height: auto;
     }
+    .view-testimonials-front-view .view-header{
+        padding-bottom: 25px
+    }
+    .testimonials-front-view-section{
+        padding: 50px 0px;
+    }
+    .view-testimonials-front-view ul {
+        width: 80%;
+    }
+    .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name{
+        width: 94%;
+    }
+    .fieldset-wrapper .field--name-field-categoies{
+        justify-content: center;
+    }
+
 }
