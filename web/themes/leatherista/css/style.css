@@ -1673,6 +1673,13 @@ ul.top-pick-for-you-slider {
     padding: 0 !important;
     background-color: #fff;
 }
+#commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button::after{
+    content: '*';
+    top: -26px;
+    position: relative;
+    z-index: 999;
+    font-size: 25px;
+}
 #commerce-cart-pop-block .view-commerce-cart-block #edit-actions{
     display: none;
 }
