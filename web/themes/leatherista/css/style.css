@@ -1692,7 +1692,7 @@ ul.top-pick-for-you-slider {
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line{
     text-align: left;
 }
-#commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line .order-total-line-value{
+#commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line .order-total-line-label{
     padding-right: 10px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line__total{
@@ -2095,6 +2095,9 @@ ul.top-pick-for-you-slider {
     #commerce-cart-pop-block{
         width: 310px;
     }
+    #commerce-cart-pop-block .view-commerce-cart-block{
+        padding: 0px;
+    }
     #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
         font-size: 12px;
     }
@@ -2191,7 +2194,10 @@ ul.top-pick-for-you-slider {
         justify-content: center;
     }
     #commerce-cart-pop-block{
-        width: 330px;
+        width: 340px;
+    }
+    #commerce-cart-pop-block .view-commerce-cart-block{
+        padding: 5px;
     }
     #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
         font-size: 12px;
