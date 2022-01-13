@@ -18,6 +18,10 @@ body.path-frontpage main.main-content {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+.row{
+    --bs-gutter-x:0;
+    --bs-gutter-y:0;
+}
 
 #header {
     background-color: #9BBBBF;
@@ -333,6 +337,7 @@ ul.top-pick-for-you-slider {
 
 #block-frontmainbanner .field--name-body img {
     max-width: 100%;
+    height: auto;
 }
 
 .front-belts-icons-banner {
@@ -2060,9 +2065,6 @@ ul.top-pick-for-you-slider {
     .front-belts-icons-banner .field--name-body img{
         height: auto;
     }
-    #block-frontmainbanner .field--name-body img{
-        height: auto;
-    }
     .view-testimonials-front-view .view-header{
         padding-bottom: 0px;
         padding-top: 10px;
@@ -2223,9 +2225,6 @@ ul.top-pick-for-you-slider {
         margin-bottom: 20px;
     }
     .front-belts-icons-banner .field--name-body img{
-        height: auto;
-    }
-    #block-frontmainbanner .field--name-body img{
         height: auto;
     }
     .view-testimonials-front-view .view-header{
