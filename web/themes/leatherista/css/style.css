@@ -1941,6 +1941,7 @@ ul.top-pick-for-you-slider {
     }
     .testimonials-front-view-section {
         padding: 0;
+        overflow: hidden;
     }
     .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-image {
         float: none;
