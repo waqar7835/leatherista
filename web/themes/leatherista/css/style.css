@@ -1840,12 +1840,10 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
-#commerce-cart-pop-block .view-commerce-cart-block
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* menu start */
-    .block-superfish ul.sf-menu ul li>a::after .block-superfish ul.sf-menu ul li>a {}
     .block-superfish ul.sf-menu ul li {
         width: 100%;
         padding: 5px 70px 15px 15px !important;
