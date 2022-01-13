@@ -1691,7 +1691,8 @@ ul.top-pick-for-you-slider {
     padding-top: 20px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line{
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line .order-total-line-label{
     padding-right: 10px;
