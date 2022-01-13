@@ -1636,7 +1636,7 @@ ul.top-pick-for-you-slider {
     width: 350px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block{
-    padding: 20px;
+    padding: 15px;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block{
     display: flex;
@@ -1655,7 +1655,7 @@ ul.top-pick-for-you-slider {
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-block-quantity-price{
     display: flex;
-    justify-content: space-around;
+    justify-content:left;
 }
 #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-block-quantity-price .cart-prod-quantity{
     color: #a5a5a5;
@@ -1688,6 +1688,15 @@ ul.top-pick-for-you-slider {
     font-size: 15px;
     border-top: 1px solid;
     padding-top: 20px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line{
+    text-align: center;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line .order-total-line-value{
+    padding-right: 10px;
+}
+#commerce-cart-pop-block .view-commerce-cart-block .view-footer .order-total-line__total{
+    padding-top: 10px;
 }
 #commerce-cart-pop-block .commerce-cart-pop-block__inners .pop-up-footer{
     margin: 20px;
@@ -1831,6 +1840,7 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
+#commerce-cart-pop-block .view-commerce-cart-block
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -2084,6 +2094,15 @@ ul.top-pick-for-you-slider {
         flex-direction: column;
         justify-content: center;
     }
+    #commerce-cart-pop-block{
+        width: 300px;
+    }
+    #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
+        font-size: 12px;
+    }
+    #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-prod-title{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2172,6 +2191,15 @@ ul.top-pick-for-you-slider {
         display: flex !important;
         flex-direction: column;
         justify-content: center;
+    }
+    #commerce-cart-pop-block{
+        width: 300px;
+    }
+    #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price{
+        font-size: 12px;
+    }
+    #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-prod-title{
+        font-size: 15px;
     }
 }
 
