@@ -18,10 +18,6 @@ body.path-frontpage main.main-content {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-.row{
-    --bs-gutter-x:0;
-    --bs-gutter-y:0;
-}
 
 #header {
     background-color: #9BBBBF;
