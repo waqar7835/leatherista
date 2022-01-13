@@ -1537,8 +1537,9 @@ ul.top-pick-for-you-slider {
     display: block;
     background: transparent;
     padding: 0;
-    width: 703px;
+    width: 52%;
     float: right;
+    margin: auto;
 }
 .path-product .block-page-title-block h1{
     font-size: 2.83333rem;
@@ -2104,6 +2105,11 @@ ul.top-pick-for-you-slider {
     #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .title-quantity-price .cart-prod-title{
         font-size: 15px;
     }
+    .path-product .block-page-title-block{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2120,10 +2126,20 @@ ul.top-pick-for-you-slider {
         clear: both;
         text-align: center;
     }
+    .path-product .block-page-title-block{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
     .path-product .block-system-main-block article{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+    #block-leatherista-content .field--name-field-images span{
+        margin-bottom: 0px; 
+        margin-right: 0px;
     }
     .fieldset-wrapper .field--name-field-categoies{
         justify-content: center;
