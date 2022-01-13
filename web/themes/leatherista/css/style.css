@@ -2111,6 +2111,7 @@ ul.top-pick-for-you-slider {
     }
     .testimonials-front-view-section{
         padding: 25px 0px;
+        overflow: hidden;
     }
     .view-testimonials-front-view ul
     .testimonials-front-slider.slick-initialized.slick-slider li .views-field-field-author-name{
@@ -2229,6 +2230,7 @@ ul.top-pick-for-you-slider {
     }
     .testimonials-front-view-section{
         padding: 50px 0px;
+        overflow: hidden;
     }
     .view-testimonials-front-view ul {
         width: 80%;
