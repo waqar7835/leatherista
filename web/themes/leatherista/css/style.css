@@ -1526,7 +1526,7 @@ ul.top-pick-for-you-slider {
     color: #000;
 }
 
-.node--type-blogs .field--type-entity-reference .field__item::before {
+.node--type-blogs .node__content .field--name-field-tag .field__item::before {
     content: '';
     background-image: url('../images/msg-box.png');
     width: 28px;
@@ -1534,9 +1534,6 @@ ul.top-pick-for-you-slider {
     position: absolute;
     left: 0px;
     top: -5px;
-}
-#commerce-cart-pop-block .cart-popup-block .field--type-entity-reference .field__item::before{
-    background-image: none;
 }
 .node--type-blogs .field--type-entity-reference .field__item a{
     text-decoration: none;
