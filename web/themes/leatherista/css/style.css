@@ -1697,7 +1697,8 @@ ul.top-pick-for-you-slider {
     color: #fff;
     font-size: 0px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 18px;
+    z-index: 99;
 }
 /* #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button input.delete-order-item{
     cursor: pointer !important;
