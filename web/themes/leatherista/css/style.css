@@ -1736,10 +1736,9 @@ ul.top-pick-for-you-slider {
     margin-top: 25px;
     background-color: #181818;
     color: #fff;
-    font-size: 0px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 0px;
     margin-right: 18px;
-    z-index: 99;
 }
 /* #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button input.delete-order-item{
     cursor: pointer !important;
@@ -1929,6 +1928,7 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
+.view-commerce-cart-form
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
