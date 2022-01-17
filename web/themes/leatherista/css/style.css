@@ -1009,13 +1009,14 @@ ul.top-pick-for-you-slider {
     color: #555a60;
     font-family: 'lato-regular';
 }
-/* .node--type-blogs #block-pagetitle{
+.node--type-blogs #block-pagetitle{
     padding: 20px 0px;
     background-color: #fff;
     color: #555a60;
     font-family: 'lato-regular';
     margin: 0px;
-} */
+    display: none;
+}
 .path-product .block-system-main-block .field--name-price {
     padding-top: 75px;
     /* padding-top: 12px; */
