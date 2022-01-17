@@ -995,13 +995,27 @@ ul.top-pick-for-you-slider {
     left: 52%;
     top: 75px;
 }
-.node--type-blogs #block-pagetitle{
+#block-views-block-blogs-detail-page-title-and-body-block-1 .views-field-title{
     padding: 20px 0px;
     background-color: #fff;
     color: #555a60;
     font-family: 'lato-regular';
     margin: 0px;
 }
+#block-views-block-blogs-detail-page-title-and-body-block-1 .views-field-title .field-content h1{
+    width: 1150px;
+    margin: 0 auto;
+    max-width: 100%;
+    color: #555a60;
+    font-family: 'lato-regular';
+}
+/* .node--type-blogs #block-pagetitle{
+    padding: 20px 0px;
+    background-color: #fff;
+    color: #555a60;
+    font-family: 'lato-regular';
+    margin: 0px;
+} */
 .path-product .block-system-main-block .field--name-price {
     padding-top: 75px;
     /* padding-top: 12px; */
