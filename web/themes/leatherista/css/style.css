@@ -1097,8 +1097,31 @@ ul.top-pick-for-you-slider {
 .node--type-blogs .field--name-body p:nth-of-type(1) {
     margin-top: 85px;
 }
+#block-views-block-blogs-detail-page-title-and-body-block-1 .views-field-body p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 2.91667rem;
+    color: rgb(85 90 96 / 70%);
+    font-family: 'lato-regular';
 
-.node--type-blogs .field--name-body p {
+}
+#block-views-block-blogs-detail-page-title-and-body-block-1 .views-field-body ol li{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'lato-regular';
+    color: rgb(85 90 96 / 70%);
+}
+#block-views-block-blogs-detail-page-title-and-body-block-1 .views-field-body ul li{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'lato-regular';
+    color: rgb(85 90 96 / 70%);
+}
+
+/* .node--type-blogs .field--name-body p {
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
@@ -1121,7 +1144,7 @@ ul.top-pick-for-you-slider {
     font-weight: 400;
     font-family: 'lato-regular';
     color: rgb(85 90 96 / 70%);
-}
+} */
 
 .node--type-blogs .sidebar_second {
     width: 31.7%;
@@ -1554,6 +1577,7 @@ ul.top-pick-for-you-slider {
 .node--type-blogs .field--type-entity-reference .field__item a{
     text-decoration: none;
     color: #3b3b3b;
+    padding-left: 28px;
 }
 
 .node--type-blogs .datetime::before {
