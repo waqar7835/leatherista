@@ -1952,7 +1952,7 @@ ul.top-pick-for-you-slider {
 .view-commerce-cart-form #edit-actions input#edit-submit{
     width: 165px;
     margin-bottom: 10px;
-    background-color: #333333 !important;
+    background-color: #555a60 !important;
     border-radius: unset;
     padding: 10px;
 }
@@ -1964,7 +1964,7 @@ ul.top-pick-for-you-slider {
     background-color: #181818 !important;
     border-radius: unset;
     font-size: 1.08333rem !important;
-    padding: 1.5rem 2.66667rem !important;
+    padding: 0.5rem 2.66667rem !important;
 }
 
 
