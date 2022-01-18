@@ -1919,7 +1919,15 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
-.view-commerce-cart-form
+.view-commerce-cart-form .table-responsive .remove-button::after{
+    content: "x";
+}
+.view-commerce-cart-form .table-responsive .remove-button input.delete-order-item{
+    font-size: 20px;
+}
+.view-commerce-cart-form .table-responsive .views-field-purchased-entity article .field--name-price{
+    display: none;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
