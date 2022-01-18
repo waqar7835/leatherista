@@ -1928,16 +1928,19 @@ ul.top-pick-for-you-slider {
     font-weight: 400;
     font-size: 1.33333rem;
     line-height: 1.75;
+    text-align: center;
 }
 .view-commerce-cart-form .table-responsive tbody tr td{
     text-align: center;
     vertical-align: middle;
+    font-family: 'lato-regular';
+    font-size: 16px;
 }
 .view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-total-price__number{
     color: #9bbbbf !important;
 }
 .view-commerce-cart-form .table-responsive .remove-button::after{
-    
+    background-color: inherit;
 }
 .view-commerce-cart-form .table-responsive .remove-button input.delete-order-item{
     background-color: #555a60;
@@ -1954,6 +1957,9 @@ ul.top-pick-for-you-slider {
 }
 .view-commerce-cart-form .table-responsive .views-field-purchased-entity article .field--name-price{
     display: none;
+}
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-edit-quantity fieldset.mb-3{
+    margin: 0px !important;
 }
 .view-commerce-cart-form .field--name-total-price{
     margin-right:15px ;
@@ -1972,6 +1978,7 @@ ul.top-pick-for-you-slider {
     margin-bottom: 10px;
     background-color: #555a60 !important;
     border-radius: unset;
+    border: 1px solid transparent !important;
     padding: 10px;
 }
 .view-commerce-cart-form #edit-actions input#edit-checkout{
