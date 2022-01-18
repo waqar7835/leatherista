@@ -1936,14 +1936,8 @@ ul.top-pick-for-you-slider {
 .view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-total-price__number{
     color: #9bbbbf !important;
 }
-.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference{
-    margin: 0px !important;
-}
-.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference .field--name-field-images a img{
-    margin: 0px !important;
-}
 .view-commerce-cart-form .table-responsive .remove-button::after{
-    content: "x";
+    
 }
 .view-commerce-cart-form .table-responsive .remove-button input.delete-order-item{
     background-color: #555a60;
@@ -1952,8 +1946,11 @@ ul.top-pick-for-you-slider {
     border: 1px solid;
     border-radius: unset;
 }
-.view-commerce-cart-form .table-responsive .views-field-purchased-entity .views-field-purchased-entity .field--name-product-id{
-    margin-bottom: 0px;
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference{
+    margin: 0px !important;
+}
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference .field--name-field-images a img{
+    margin: 0px !important;
 }
 .view-commerce-cart-form .table-responsive .views-field-purchased-entity article .field--name-price{
     display: none;
