@@ -1919,14 +1919,52 @@ ul.top-pick-for-you-slider {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
+.view-commerce-cart-form .table-responsive thead tr th{
+    color: #555a60;
+}
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-total-price__number{
+    color: #9bbbbf !important;
+}
 .view-commerce-cart-form .table-responsive .remove-button::after{
     content: "x";
 }
 .view-commerce-cart-form .table-responsive .remove-button input.delete-order-item{
     font-size: 20px;
 }
+.view-commerce-cart-form .table-responsive .views-field-purchased-entity .views-field-purchased-entity .field--name-product-id{
+    margin-bottom: 0px;
+}
 .view-commerce-cart-form .table-responsive .views-field-purchased-entity article .field--name-price{
     display: none;
+}
+.view-commerce-cart-form .field--name-total-price{
+    margin-right:15px ;
+}
+.view-commerce-cart-form .field--name-total-price .order-total-line__total .order-total-line-value{
+    margin-right: 7px;
+}
+.view-commerce-cart-form #edit-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 15px
+}
+.view-commerce-cart-form #edit-actions input#edit-submit{
+    width: 165px;
+    margin-bottom: 10px;
+    background-color: #333333 !important;
+    border-radius: unset;
+    padding: 10px;
+}
+.view-commerce-cart-form #edit-actions input#edit-checkout{
+    width: 165px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+    border-color: #181818 !important;
+    background-color: #181818 !important;
+    border-radius: unset;
+    font-size: 1.08333rem !important;
+    padding: 1.5rem 2.66667rem !important;
 }
 
 
