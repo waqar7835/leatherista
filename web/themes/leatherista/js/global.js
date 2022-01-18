@@ -11,7 +11,7 @@
     attach: function (context, settings) {
       
       //cart popup block 
-      $("#block-commerce-popup-cart-commerce-popup-cart #commerce-cart-pop-block .remove-button input.delete-order-item").attr('value', 'x');
+      $("#block-commerce-popup-cart-commerce-popup-cart #commerce-cart-pop-block .remove-button input.delete-order-item").prop('value', 'x');
       
       // top-pick-for-you-slider start 
       $(".top-pick-for-you-slider").slick({
