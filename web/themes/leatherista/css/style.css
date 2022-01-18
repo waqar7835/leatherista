@@ -1923,10 +1923,24 @@ ul.top-pick-for-you-slider {
     border-bottom-right-radius: 35px;
 }
 .view-commerce-cart-form .table-responsive thead tr th{
-    color: #555a60;
+    color: #333333;
+    font-family: 'Lato-Bold';
+    font-weight: 400;
+    font-size: 1.33333rem;
+    line-height: 1.75;
+}
+.view-commerce-cart-form .table-responsive tbody tr td{
+    text-align: center;
+    vertical-align: middle;
 }
 .view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-total-price__number{
     color: #9bbbbf !important;
+}
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference{
+    margin: 0px !important;
+}
+.view-commerce-cart-form .table-responsive tbody tr td.views-field-unit-price__number, .view-commerce-cart-form .table-responsive tbody tr td.views-field-purchased-entity .field--type-entity-reference .field--name-field-images a img{
+    margin: 0px !important;
 }
 .view-commerce-cart-form .table-responsive .remove-button::after{
     content: "x";
