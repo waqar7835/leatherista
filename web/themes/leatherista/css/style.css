@@ -1731,6 +1731,9 @@ ul.top-pick-for-you-slider {
     padding: 0px;
     margin-right: 18px;
 }
+#commerce-cart-pop-block .view-commerce-cart-block #edit-actions--2{
+    display: none;
+}
 /* #commerce-cart-pop-block .view-commerce-cart-block .views-row .cart-popup-block .remove-button input.delete-order-item{
     cursor: pointer !important;
     width: 30px !important;
@@ -1929,7 +1932,11 @@ ul.top-pick-for-you-slider {
     content: "x";
 }
 .view-commerce-cart-form .table-responsive .remove-button input.delete-order-item{
-    font-size: 20px;
+    background-color: #555a60;
+    color: #fff;
+    padding: 8px 0px;
+    border: 1px solid;
+    border-radius: unset;
 }
 .view-commerce-cart-form .table-responsive .views-field-purchased-entity .views-field-purchased-entity .field--name-product-id{
     margin-bottom: 0px;
