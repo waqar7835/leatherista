@@ -2073,7 +2073,8 @@ ul.top-pick-for-you-slider {
         font-size: 0px;
     }
     #block-shoppingcartpopup{
-        width: 58px;
+        width: auto;
+        padding-right: 10px;
     }
     .block-superfish span {
         background-image: url('../images/menu-responsive.png');
