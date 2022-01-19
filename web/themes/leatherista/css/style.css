@@ -546,7 +546,7 @@ ul.top-pick-for-you-slider {
 }
 
 .view-blogs-homepage .row .views-row {
-    flex-basis: 32%;
+    flex-basis: 33%;
     margin-bottom: 80px;
 }
 
@@ -861,7 +861,7 @@ ul.top-pick-for-you-slider {
     height: 28px;
     background-repeat: no-repeat;
     background-position-x: 1px;
-    width: 63px;
+    width: 53px;
     background-position-y: 1px;
 }
 
