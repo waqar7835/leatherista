@@ -2055,8 +2055,9 @@ ul.top-pick-for-you-slider {
     }
     #superfish-main--accordion {
         position: absolute !important;
-        top: 90px !important;
+        top: 55px !important;
         left: unset !important;
+        right: 28px;
         width: 170px;
         background: #fff;
         padding: 10px 10px;
@@ -2342,8 +2343,9 @@ ul.top-pick-for-you-slider {
     }
     #superfish-main--accordion {
         position: absolute !important;
-        top: 90px !important;
+        top: 55px !important;
         left: unset !important;
+        right: 28px;
         width: 170px;
         background: #fff;
         padding: 10px 10px;
