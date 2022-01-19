@@ -2082,7 +2082,7 @@ ul.top-pick-for-you-slider {
     .block-superfish span {
         background-image: url('../images/menu-responsive.png');
         width: 52px;
-        height: 37px;
+        height: 40px;
         display: block;
     }
     .view-shop .view-content.row .views-row {
@@ -2139,7 +2139,7 @@ ul.top-pick-for-you-slider {
         height: auto;
     }
     .view-blogs-homepage {
-        padding: 50px 15px 50px 15px;
+        padding: 0px 15px 50px 15px;
         width: 100%;
         margin: 0 auto;
     }
@@ -2327,7 +2327,7 @@ ul.top-pick-for-you-slider {
     .block-superfish span {
         background-image: url('../images/menu-responsive.png');
         width: 52px;
-        height: 37px;
+        height: 40px;
         display: block;
         font-size: 0px;
     }
