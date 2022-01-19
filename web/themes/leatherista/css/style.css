@@ -2416,7 +2416,7 @@ ul.top-pick-for-you-slider {
        width: 44%;
     }
     .view-blogs-homepage .row .views-row {
-        flex-basis: 80%;
+        flex-basis: 100%;
     }
     #navbar-main {
         display: block;
@@ -2426,6 +2426,9 @@ ul.top-pick-for-you-slider {
         float: right;
         width: 58px;
         overflow: hidden;
+    }
+    .latest-initiatives-data .blogimage img{
+        height: auto;
     }
 }
 
