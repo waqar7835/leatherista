@@ -2014,7 +2014,8 @@ ul.top-pick-for-you-slider {
     .block-superfish {
         margin-left: 48px;
         float: right;
-        width: 13%;
+        width: 58px;
+        overflow: hidden;
     }
     .block-superfish .sf-menu li.sf-depth-1:nth-of-type(1) a::after {
         width: 0px !important;
@@ -2332,8 +2333,8 @@ ul.top-pick-for-you-slider {
     }
     .block-superfish .sf-accordion-toggle.sf-style-none{
         margin-top: 0px;
-        position: absolute;
-        top: 35px;
+        position: relative;
+        top: 10px;
         z-index: 999999;
     }
     #superfish-main--accordion {
@@ -2404,8 +2405,8 @@ ul.top-pick-for-you-slider {
     #block-shoppingcartpopup{
         width: auto;
         padding-right: 10px;
-        float: right;
         clear: both;
+        overflow: hidden;
     }
     .view-shop .view-content.row .views-row{
        width: 44%;
@@ -2419,7 +2420,8 @@ ul.top-pick-for-you-slider {
     .block-superfish {
         margin-left: 48px;
         float: right;
-        width: 13%;
+        width: 58px;
+        overflow: hidden;
     }
 }
 
