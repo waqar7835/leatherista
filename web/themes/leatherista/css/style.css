@@ -2075,6 +2075,8 @@ ul.top-pick-for-you-slider {
     #block-shoppingcartpopup{
         width: auto;
         padding-right: 10px;
+        float: right;
+        clear: both;
     }
     .block-superfish span {
         background-image: url('../images/menu-responsive.png');
@@ -2398,6 +2400,12 @@ ul.top-pick-for-you-slider {
     }
     .block-page-title-block{
         padding-left: 15px;
+    }
+    #block-shoppingcartpopup{
+        width: auto;
+        padding-right: 10px;
+        float: right;
+        clear: both;
     }
     .view-shop .view-content.row .views-row{
        width: 44%;
