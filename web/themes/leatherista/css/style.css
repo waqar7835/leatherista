@@ -724,8 +724,8 @@ ul.top-pick-for-you-slider {
 }
 
 .path-frontpage .view-blogs-homepage .row {
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .view-shop .view-content.row {
@@ -2414,7 +2414,7 @@ ul.top-pick-for-you-slider {
        width: 44%;
     }
     .view-blogs-homepage .row .views-row {
-        flex-basis: 90%;
+        flex-basis: 80%;
     }
     #navbar-main {
         display: block;
