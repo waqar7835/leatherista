@@ -2405,6 +2405,14 @@ ul.top-pick-for-you-slider {
     .view-blogs-homepage .row .views-row {
         flex-basis: 90%;
     }
+    #navbar-main {
+        display: block;
+    }
+    .block-superfish {
+        margin-left: 48px;
+        float: right;
+        width: 13%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
