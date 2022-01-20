@@ -1997,6 +1997,30 @@ ul.top-pick-for-you-slider {
     font-size: 1.08333rem !important;
     padding: 0.5rem 2.66667rem !important;
 }
+body.path-user .field--label-above .field__item{
+    background: none;
+    padding: 0px;
+}
+body.page-user-login #block-pagetitle{
+    display: none;
+}
+body.page-user-login .block-system-main-block{
+    width: 350px;
+    margin: 50px auto;
+    max-width: 100%;
+    padding-top: 0;
+}
+body.page-user-login .block-system-main-block .user-login-form #edit-submit{
+    width: 180px;
+    margin-bottom: 10px;
+    background-color: #555a60 !important;
+    border-radius: unset;
+    border: 1px solid transparent !important;
+    padding: 10px;
+}
+body.page-user-login .tabs{
+    display: none;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
